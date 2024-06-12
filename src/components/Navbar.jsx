@@ -31,7 +31,7 @@ function Navbar() {
 
   const getMenuItemStyle = (path) => {
     return location.pathname === path 
-    ? { borderBottom: '2px solid', borderColor: '#06C7F9', } 
+    ? { borderBottom: '2px solid', borderColor: '#06C7F9', width: '125px' } 
     : {};
   };
 

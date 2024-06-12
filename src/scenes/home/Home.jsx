@@ -1,17 +1,15 @@
-import { alpha } from '@mui/material';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
+import { Box, Container, Typography } from '@mui/material';
 
 export default function Home() {
   return (
     <Box
       id="Home"
-      sx={(theme) => ({
+      sx={{
         width: '100%',
         backgroundImage: 'linear-gradient(180deg, #9BE7FA, #FFF)',
         backgroundSize: '100% 20%',
         backgroundRepeat: 'no-repeat',
-      })}
+      }}
     >
       <Container
         sx={{
@@ -23,6 +21,9 @@ export default function Home() {
         }}
       >
         {/* Componentes */}
+        <Typography variant='h1'>
+          Inicio
+        </Typography>
         
       </Container>
     </Box>
