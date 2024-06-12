@@ -31,7 +31,7 @@ function Navbar() {
 
   const getMenuItemStyle = (path) => {
     return location.pathname === path 
-    ? { borderBottom: '2px solid', borderColor: '#06C7F9', width: '125px' } 
+    ? { borderBottom: '2px solid', borderColor: '#06C7F9', } 
     : {};
   };
 
@@ -154,31 +154,31 @@ function Navbar() {
                   ></Box>
                   <MenuItem
                     onClick={() => navigate("/")}
-                    sx={getMenuItemStyle('/')}
+                    sx={{width: "125px", ...getMenuItemStyle('/')}}
                   >
                     Inicio
                   </MenuItem>
                   <MenuItem
                     onClick={() => navigate("/servicios")}
-                    sx={getMenuItemStyle('/servicios')}
+                    sx={{width: "125px", ...getMenuItemStyle('/servicios')}}
                   >
                     Servicios
                   </MenuItem>
                   <MenuItem
                     onClick={() => navigate("/especialidades")}
-                    sx={getMenuItemStyle('/especialidades')}
+                    sx={{width: "125px", ...getMenuItemStyle('/especialidades')}}
                   >
                     Especialidades
                   </MenuItem>
                   <MenuItem
                     onClick={() => navigate("/salud365")}
-                    sx={getMenuItemStyle('/salud365')}
+                    sx={{width: "125px", ...getMenuItemStyle('/salud365')}}
                   >
                     Salud 365
                   </MenuItem>
                   <MenuItem
                     onClick={() => navigate("/contacto")}
-                    sx={getMenuItemStyle('/contacto')}
+                    sx={{width: "125px", ...getMenuItemStyle('/contacto')}}
                   >
                     Contacto
                   </MenuItem>
