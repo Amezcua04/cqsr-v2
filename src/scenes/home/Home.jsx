@@ -1,4 +1,5 @@
 import { Box, Container, Typography } from '@mui/material';
+import Banner from './Banner';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         backgroundImage: 'linear-gradient(180deg, #9BE7FA, #FFF)',
         backgroundSize: '100% 20%',
         backgroundRepeat: 'no-repeat',
+        mb: { xs: 14, sm: 20 },
       }}
     >
       <Container
@@ -16,15 +18,14 @@ export default function Home() {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          pt: { xs: 14, sm: 20 },
-          pb: { xs: 8, sm: 12 },
+          pt: { xs: 12},
+          // pb: { xs: 8, sm: 12 },
         }}
       >
-        {/* Componentes */}
-        <Typography variant='h1'>
+        <Banner />
+        <Typography variant="h1">
           Inicio
         </Typography>
-        
       </Container>
     </Box>
   );
