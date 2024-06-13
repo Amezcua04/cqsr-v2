@@ -10,7 +10,7 @@ const Banner = ({ desktopImgSrc, mobileImgSrc, children }) => {
       sx={{
         position: "relative",
         width: "100%",
-        height: isMobile ? "40vh" : "100vh",
+        height: isMobile ? "40vh" : "80vh",
         overflow: "hidden",
       }}
     >
