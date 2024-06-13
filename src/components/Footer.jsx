@@ -107,25 +107,25 @@ export default function Footer() {
             <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
               &nbsp;•&nbsp;
             </Typography>
-            <Link color="text.secondary" href="servicios">
+            <Link color="text.secondary" href="/servicios">
               Servicios
             </Link>
             <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
               &nbsp;•&nbsp;
             </Typography>
-            <Link color="text.secondary" href="especialidades">
+            <Link color="text.secondary" href="/especialidades">
               Especialidades
             </Link>
             <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
               &nbsp;•&nbsp;
             </Typography>
-            <Link color="text.secondary" href="salud365">
-              Salud 365
+            <Link color="text.secondary" href="/salud365">
+              Salud365
             </Link>
             <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
               &nbsp;•&nbsp;
             </Typography>
-            <Link color="text.secondary" href="contacto">
+            <Link color="text.secondary" href="/contacto">
               Contacto
             </Link>
             <Copyright />
