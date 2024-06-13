@@ -1,32 +1,48 @@
-import React from 'react';
-import { Box, Typography, Button, Container } from '@mui/material';
+import { Box, useMediaQuery } from "@mui/material";
+import "../../index.css";
 
-const Banner = () => {
+const Banner = ({ desktopImgSrc, mobileImgSrc, children }) => {
+  const isMobile = useMediaQuery("(max-width:600px)");
+  const imageSrc = isMobile ? mobileImgSrc : desktopImgSrc;
+
   return (
     <Box
       sx={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        height: '300px',
-        // backgroundColor: 'transparent',
-        color: 'black',
-        textAlign: 'center',
-        paddingTop: '20px ',
+        position: "relative",
         width: "100%",
+        height: isMobile ? "40vh" : "100vh",
+        overflow: "hidden",
       }}
     >
-      <Container>
-        <Typography variant="h2" component="h2" gutterBottom>
-          Welcome to Our Website
-        </Typography>
-        <Typography variant="h5" component="p" gutterBottom>
-          We provide the best services for you.
-        </Typography>
-        <Button variant="contained" color="primary">
-          Learn More
-        </Button>
-      </Container>
+      <Box
+        component="img"
+        src={imageSrc}
+        alt="Banner"
+        sx={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          objectFit: "contain",
+        }}
+      />
+      <Box
+        sx={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          color: "white",
+          fontSize: "2rem",
+        }}
+      >
+        {children}
+      </Box>
     </Box>
   );
 };

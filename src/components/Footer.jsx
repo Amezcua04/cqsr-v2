@@ -101,31 +101,31 @@ export default function Footer() {
           }}
         >
           <div>
-            <Link color="text.secondary" href="/">
+            <Link color="text.secondary" href="#">
               Inicio
             </Link>
             <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
               &nbsp;•&nbsp;
             </Typography>
-            <Link color="text.secondary" href="/servicios">
+            <Link color="text.secondary" href="#">
               Servicios
             </Link>
             <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
               &nbsp;•&nbsp;
             </Typography>
-            <Link color="text.secondary" href="/especialidades">
+            <Link color="text.secondary" href="#">
               Especialidades
             </Link>
             <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
               &nbsp;•&nbsp;
             </Typography>
-            <Link color="text.secondary" href="/salud365">
+            <Link color="text.secondary" href="#">
               Salud 365
             </Link>
             <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
               &nbsp;•&nbsp;
             </Typography>
-            <Link color="text.secondary" href="/contacto">
+            <Link color="text.secondary" href="#">
               Contacto
             </Link>
             <Copyright />
