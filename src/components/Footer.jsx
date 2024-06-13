@@ -120,7 +120,7 @@ export default function Footer() {
               &nbsp;•&nbsp;
             </Typography>
             <Link color="text.secondary" href="/salud365">
-              Salud365
+              Salud 365
             </Link>
             <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
               &nbsp;•&nbsp;
