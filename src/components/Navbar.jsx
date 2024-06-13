@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import {
   AppBar,
@@ -12,6 +12,7 @@ import {
   Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import CallIcon from "@mui/icons-material/Call";
 import Logo from "../assets/logo.png";
 
 const logoStyle = {
@@ -200,10 +201,10 @@ function Navbar() {
                   </MenuItem>
                   <Divider />
                   <a href="tel:3112119470" style={{ textDecoration: "none" }}>
-                <Button variant="contained" fullWidth color="error">
-                  URGENCIAS
-                </Button>
-              </a>
+                    <Button startIcon={<CallIcon />} variant="contained" fullWidth color="error">
+                      URGENCIAS
+                    </Button>
+                  </a>
                 </Box>
               </Drawer>
             </Box>
