@@ -15,8 +15,8 @@ const logoStyle = {
 function Copyright() {
   return (
     <Typography variant="body2" color="secondary" mt={1}>
-      {"Copyright © "}
-      <Link href="/">Centro Quirurgico San Rafael&nbsp;</Link>
+      {"© "}
+      Centro Quirurgico San Rafael. Todos los Derechos Reservados&nbsp;
       {new Date().getFullYear()}
     </Typography>
   );
@@ -147,14 +147,14 @@ export default function Footer() {
             >
               <FacebookIcon />
             </IconButton>
-            <IconButton
+            {/* <IconButton
               color="inherit"
               href="/"
               aria-label="X"
               sx={{ alignSelf: "center" }}
             >
               <TwitterIcon />
-            </IconButton>
+            </IconButton> */}
             <IconButton
               color="inherit"
               href="https://www.instagram.com/sanrafaelcq/"
