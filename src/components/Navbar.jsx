@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import {
   AppBar,
@@ -30,9 +30,9 @@ function Navbar() {
   };
 
   const getMenuItemStyle = (path) => {
-    return location.pathname === path 
-    ? { borderBottom: '2px solid', borderColor: '#06C7F9', } 
-    : {};
+    return location.pathname === path
+      ? { borderBottom: "2px solid", borderColor: "#06C7F9" }
+      : {};
   };
 
   return (
@@ -72,7 +72,12 @@ function Navbar() {
                 px: 0,
               }}
             >
-              <img src={Logo} style={logoStyle} alt="logo of cqsr" onClick={() => navigate("/")} />
+              <img
+                src={Logo}
+                style={logoStyle}
+                alt="logo of cqsr"
+                onClick={() => navigate("/")}
+              />
             </Box>
             <Box
               sx={{
@@ -83,7 +88,7 @@ function Navbar() {
             >
               <MenuItem
                 onClick={() => navigate("/")}
-                sx={{ py: "6px", px: "12px", ...getMenuItemStyle('/') }}
+                sx={{ py: "6px", px: "12px", ...getMenuItemStyle("/") }}
               >
                 <Typography variant="h5" color="text.primary">
                   Inicio
@@ -91,7 +96,11 @@ function Navbar() {
               </MenuItem>
               <MenuItem
                 onClick={() => navigate("/servicios")}
-                sx={{ py: "6px", px: "12px", ...getMenuItemStyle('/servicios') }}
+                sx={{
+                  py: "6px",
+                  px: "12px",
+                  ...getMenuItemStyle("/servicios"),
+                }}
               >
                 <Typography variant="h5" color="text.primary">
                   Servicios
@@ -99,7 +108,11 @@ function Navbar() {
               </MenuItem>
               <MenuItem
                 onClick={() => navigate("/especialidades")}
-                sx={{ py: "6px", px: "12px", ...getMenuItemStyle('/especialidades') }}
+                sx={{
+                  py: "6px",
+                  px: "12px",
+                  ...getMenuItemStyle("/especialidades"),
+                }}
               >
                 <Typography variant="h5" color="text.primary">
                   Especialidades
@@ -107,7 +120,7 @@ function Navbar() {
               </MenuItem>
               <MenuItem
                 onClick={() => navigate("/salud365")}
-                sx={{ py: "6px", px: "12px", ...getMenuItemStyle('/salud365') }}
+                sx={{ py: "6px", px: "12px", ...getMenuItemStyle("/salud365") }}
               >
                 <Typography variant="h5" color="text.primary">
                   Salud 365
@@ -115,7 +128,7 @@ function Navbar() {
               </MenuItem>
               <MenuItem
                 onClick={() => navigate("/contacto")}
-                sx={{ py: "6px", px: "12px", ...getMenuItemStyle('/contacto') }}
+                sx={{ py: "6px", px: "12px", ...getMenuItemStyle("/contacto") }}
               >
                 <Typography variant="h5" color="text.primary">
                   Contacto
@@ -154,39 +167,46 @@ function Navbar() {
                   ></Box>
                   <MenuItem
                     onClick={() => navigate("/")}
-                    sx={{width: "125px", ...getMenuItemStyle('/')}}
+                    sx={{ width: "125px", ...getMenuItemStyle("/") }}
                   >
                     Inicio
                   </MenuItem>
                   <MenuItem
                     onClick={() => navigate("/servicios")}
-                    sx={{width: "125px", ...getMenuItemStyle('/servicios')}}
+                    sx={{ width: "125px", ...getMenuItemStyle("/servicios") }}
                   >
                     Servicios
                   </MenuItem>
                   <MenuItem
                     onClick={() => navigate("/especialidades")}
-                    sx={{width: "125px", ...getMenuItemStyle('/especialidades')}}
+                    sx={{
+                      width: "125px",
+                      ...getMenuItemStyle("/especialidades"),
+                    }}
                   >
                     Especialidades
                   </MenuItem>
                   <MenuItem
                     onClick={() => navigate("/salud365")}
-                    sx={{width: "125px", ...getMenuItemStyle('/salud365')}}
+                    sx={{ width: "125px", ...getMenuItemStyle("/salud365") }}
                   >
                     Salud 365
                   </MenuItem>
                   <MenuItem
                     onClick={() => navigate("/contacto")}
-                    sx={{width: "125px", ...getMenuItemStyle('/contacto')}}
+                    sx={{ width: "125px", ...getMenuItemStyle("/contacto") }}
                   >
                     Contacto
                   </MenuItem>
                   <Divider />
+                  <a href="tel:3112119470" style={{ textDecoration: "none" }}>
+                <Button variant="contained" fullWidth color="error">
+                  URGENCIAS
+                </Button>
+              </a>
                 </Box>
               </Drawer>
             </Box>
-            
           </Toolbar>
         </Container>
       </AppBar>
