@@ -15,6 +15,10 @@ body,
   font-family: 'Cqsr', sans-serif;
 }
 
+body {
+  background-color: #fafafa !important;
+}
+
 .app {
   display: block;
   position: relative;
