@@ -3,7 +3,7 @@ import { Box, Container, IconButton, Link, Stack, Typography } from "@mui/materi
 import Logo from "../assets/logo.png";
 import FacebookIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramInIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/X";
+// import TwitterIcon from "@mui/icons-material/X";
 
 import Mapa from "./Mapa";
 
