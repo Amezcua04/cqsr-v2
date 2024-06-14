@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Stack, Typography, useMediaQuery } from "@mui/material";
+import { Box, Container, Grid, useMediaQuery } from "@mui/material";
 import Banner from "./Banner";
 import imageUrlDesktop from "../../assets/Banners inicio desktop.png";
 import imageUrlMobile from "../../assets/Banners inicio mobile.png";
@@ -76,7 +76,7 @@ export default function Home() {
                   titulo={item.titulo}
                   subtitulo={item.subtitulo}
                   url={item.url}
-                  width={isMobile ? "175px" : "225px"}
+                  width={isMobile ? "160px" : "225px"}
                 />
               </Grid>
             ))}
