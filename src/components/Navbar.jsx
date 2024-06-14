@@ -56,7 +56,7 @@ function Navbar() {
               justifyContent: "space-between",
               flexShrink: 0,
               borderRadius: "999px",
-              bgcolor: "rgba(255, 255, 255, 0.4)",
+              bgcolor: "rgba(24, 36, 107, 0.6)",
               backdropFilter: "blur(24px)",
               maxHeight: 40,
               border: "1px solid",
@@ -91,7 +91,7 @@ function Navbar() {
                 onClick={() => navigate("/")}
                 sx={{ py: "6px", px: "12px", ...getMenuItemStyle("/") }}
               >
-                <Typography variant="h5" color="text.primary">
+                <Typography variant="h5" color="neutral">
                   Inicio
                 </Typography>
               </MenuItem>
@@ -103,7 +103,7 @@ function Navbar() {
                   ...getMenuItemStyle("/servicios"),
                 }}
               >
-                <Typography variant="h5" color="text.primary">
+                <Typography variant="h5" color="neutral">
                   Servicios
                 </Typography>
               </MenuItem>
@@ -115,7 +115,7 @@ function Navbar() {
                   ...getMenuItemStyle("/especialidades"),
                 }}
               >
-                <Typography variant="h5" color="text.primary">
+                <Typography variant="h5" color="neutral">
                   Especialidades
                 </Typography>
               </MenuItem>
@@ -123,7 +123,7 @@ function Navbar() {
                 onClick={() => navigate("/salud365")}
                 sx={{ py: "6px", px: "12px", ...getMenuItemStyle("/salud365") }}
               >
-                <Typography variant="h5" color="text.primary">
+                <Typography variant="h5" color="neutral">
                   Salud 365
                 </Typography>
               </MenuItem>
@@ -131,7 +131,7 @@ function Navbar() {
                 onClick={() => navigate("/contacto")}
                 sx={{ py: "6px", px: "12px", ...getMenuItemStyle("/contacto") }}
               >
-                <Typography variant="h5" color="text.primary">
+                <Typography variant="h5" color="neutral">
                   Contacto
                 </Typography>
               </MenuItem>
@@ -142,7 +142,7 @@ function Navbar() {
               {/* Menu Icon */}
               <Button
                 variant="text"
-                color="primary"
+                color="neutral"
                 aria-label="menu"
                 onClick={toggleDrawer(true)}
                 sx={{ minWidth: "30px", p: "4px" }}
