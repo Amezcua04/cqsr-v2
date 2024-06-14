@@ -17,7 +17,7 @@ export default function Cards({ titulo, subtitulo, url, width }) {
       />
       <CardContent sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
         <div>
-          <Typography gutterBottom variant="h5" component="div" align={"center"}>
+          <Typography gutterBottom variant="h5" component="div" align={"center"} color="secondary">
             {titulo}
           </Typography>
           <Typography variant="body2" color="text.secondary" textAlign={"justify"}>
@@ -26,7 +26,7 @@ export default function Cards({ titulo, subtitulo, url, width }) {
         </div>
       </CardContent>
       <CardActions sx={{ display: 'flex', justifyContent: 'center' }}>
-        <Button fullWidth variant="contained" href={url}>Más información</Button>
+        <Button fullWidth variant="contained" href={url} sx={{ bgcolor: '#194AC1'}}>Más información</Button>
       </CardActions>
     </Card>
   );
