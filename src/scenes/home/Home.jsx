@@ -2,6 +2,10 @@ import { Box, Container, Grid, useMediaQuery } from "@mui/material";
 import Banner from "./Banner";
 import imageUrlDesktop from "../../assets/Banners inicio desktop.png";
 import imageUrlMobile from "../../assets/Banners inicio mobile.png";
+import Maternidad from "../../assets/icons/Maternidad.png";
+import Medicos from "../../assets/icons/Medicos.png";
+import Servicios from "../../assets/icons/Servicios.png";
+import Membresia from "../../assets/icons/Membresia.png";
 import Cards from "./Card";
 
 const data = [
@@ -10,24 +14,28 @@ const data = [
     subtitulo:
       "Reciba a su bebé en un espacio totalmente seguro, con la mejor atención las 24 horas.",
     url: "#",
+    image: Maternidad,
   },
   {
     titulo: "Médicos Especialistas",
     subtitulo:
       "Amplio staff de médicos especialistas dedicados al cuidado de su salud.",
     url: "#",
+    image: Medicos,
   },
   {
     titulo: "Servicios Médicos",
     subtitulo:
       "Más de 20 servicios médicos con tecnología de punta a su disposición.",
     url: "#",
+    image: Servicios,
   },
   {
     titulo: "Membresía Salud365",
     subtitulo:
       "Nuestra primera membresía de salud con grandes beneficios para toda la familia.",
     url: "#",
+    image: Membresia,
   },
 ];
 
@@ -71,12 +79,13 @@ export default function Home() {
           {/* Elementos centrados */}
           <Grid container spacing={2} justifyContent="center">
             {data.map((item, index) => (
-              <Grid item xs={6} sm={6} md={4} lg={3} key={index}>
+              <Grid item xs={6} sm={3} md={3} lg={3} key={index} sx={{ display: "flex", justifyContent: "center"}}>
                 <Cards
                   titulo={item.titulo}
                   subtitulo={item.subtitulo}
                   url={item.url}
                   width={isMobile ? "160px" : "225px"}
+                  image={item.image}
                 />
               </Grid>
             ))}
