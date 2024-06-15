@@ -35,14 +35,24 @@ const BrandUrgencias = () => {
       >
         <Stack direction="row" spacing={2} textAlign="justify">
           <Typography variant="h5">
-            {!isMobile ? <CampaignIcon sx={{ fontSize: "50px", color: "white"}} /> : undefined}
+            <CampaignIcon sx={{ fontSize: "55px", color: "white" }} />
           </Typography>
-          <Typography color="white" variant= {!isMobile ? "h5" : undefined } fontSize={isMobile ? "13px" : undefined} fontWeight={700} width={ isMobile ? 150 : 180 }>¡Servicio de urgencias médicas las 24 horas!</Typography>
-          <Divider orientation="vertical" flexItem sx={{ color: "neutral" }}/>
-          <Typography color="white" fontSize={isMobile ? "9px" : undefined} width={ isMobile ? 150 : 230 }>
-            Atención médica oportuna, profesional y ética las 24 horas del día,
-            los 365 días del año.
+          <Typography
+            color="white"
+            variant="h5"
+            fontWeight={700}
+            width={180}
+            paddingRight= {!isMobile ? "15px" : undefined}
+            borderRight= {!isMobile ? "3px solid #fff" : undefined}
+          >
+            ¡Servicio de urgencias médicas las 24 horas!
           </Typography>
+          {!isMobile ? (
+            <Typography color="white" width={230}>
+              Atención médica oportuna, profesional y ética las 24 horas del
+              día, los 365 días del año.
+            </Typography>
+          ) : undefined}
         </Stack>
       </Container>
     </Box>
