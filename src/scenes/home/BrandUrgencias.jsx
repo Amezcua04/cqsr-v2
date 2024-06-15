@@ -42,13 +42,15 @@ const BrandUrgencias = () => {
             variant="h5"
             fontWeight={700}
             width={180}
+            display="flex"
+            alignItems="center"
             paddingRight= {!isMobile ? "15px" : undefined}
             borderRight= {!isMobile ? "3px solid #fff" : undefined}
           >
             ¡Servicio de urgencias médicas las 24 horas!
           </Typography>
           {!isMobile ? (
-            <Typography color="white" width={230}>
+            <Typography color="white" width={230} display="flex" alignItems="center">
               Atención médica oportuna, profesional y ética las 24 horas del
               día, los 365 días del año.
             </Typography>
