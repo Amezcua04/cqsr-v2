@@ -7,6 +7,7 @@ import Medicos from "../../assets/icons/Medicos.png";
 import Servicios from "../../assets/icons/Servicios.png";
 import Membresia from "../../assets/icons/Membresia.png";
 import Cards from "./Card";
+import BrandUrgencias from "./BrandUrgencias";
 
 const data = [
   {
@@ -49,7 +50,7 @@ export default function Home() {
         backgroundImage: "linear-gradient(180deg, #9BE7FA, #FFF)",
         backgroundSize: "100% 20%",
         backgroundRepeat: "no-repeat",
-        mb: { xs: 14, sm: 20 },
+        mb: { xs: "5px", sm: "10px" },
       }}
     >
       <Container
@@ -74,6 +75,7 @@ export default function Home() {
             flexDirection: "column",
             alignItems: "center",
             pt: { xs: 4 },
+            pb: { xs: 4 },
           }}
         >
           {/* Elementos centrados */}
@@ -91,6 +93,7 @@ export default function Home() {
             ))}
           </Grid>
         </Container>
+        <BrandUrgencias />
       </Container>
     </Box>
   );

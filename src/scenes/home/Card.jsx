@@ -15,6 +15,7 @@ export default function Cards({ titulo, subtitulo, url, width, image }) {
       >
         <img 
           src={image}
+          alt='imagen'
           height='100px'
         />
       </CardMedia>
