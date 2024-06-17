@@ -1,10 +1,9 @@
-import { Box, Button, Paper, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { useMediaQuery } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
 import Aseguradora1 from "../../assets/A1.png";
 import Aseguradora2 from "../../assets/A2.png";
 import Aseguradora3 from "../../assets/A3.png";
-import Item from "./Item";
 
 const BrandAseguradoras = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
@@ -33,26 +32,22 @@ const BrandAseguradoras = () => {
       </Typography>
 
       {/* CAROUSEL */}
-      <Carousel>
+      <Carousel navButtonsAlwaysVisible sx={{ marginTop: isMobile ? "10px" : "30px" }}>
         {items.map((item, i) => (
-          <Paper key={i}>
-            <Box
-              component="img"
-              src={item.url}
-              alt="aseguradora"
-              sx={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%",
-                objectFit: "contain",
-              }}
-            />
-          </Paper>
+          <Box
+            component="img"
+            src={item.url}
+            key={i}
+            alt="Banner"
+            height={isMobile ? "100px" : "200px"}
+            sx={{
+              width: "100%",
+              objectFit: "contain",
+            }}
+          />
         ))}
       </Carousel>
-      <Box display="flex" justifyContent="center" marginTop={2}>
+      <Box display="flex" justifyContent="center" marginTop="15px">
         <Typography
           bgcolor="#194AC1"
           color="white"
