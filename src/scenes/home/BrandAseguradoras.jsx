@@ -32,7 +32,7 @@ const BrandAseguradoras = () => {
       </Typography>
 
       {/* CAROUSEL */}
-      <Carousel navButtonsAlwaysVisible sx={{ marginTop: isMobile ? "10px" : "30px" }}>
+      <Carousel navButtonsAlwaysVisible={isMobile ? false : true} sx={{ marginTop: isMobile ? "10px" : "30px" }}>
         {items.map((item, i) => (
           <Box
             component="img"
