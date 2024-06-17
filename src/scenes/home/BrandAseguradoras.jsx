@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import { useMediaQuery } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
 import Aseguradora1 from "../../assets/A1.png";
@@ -32,7 +32,10 @@ const BrandAseguradoras = () => {
       </Typography>
 
       {/* CAROUSEL */}
-      <Carousel navButtonsAlwaysVisible={isMobile ? false : true} sx={{ marginTop: isMobile ? "10px" : "30px" }}>
+      <Carousel
+        navButtonsAlwaysVisible={isMobile ? false : true}
+        sx={{ marginTop: isMobile ? "10px" : "30px" }}
+      >
         {items.map((item, i) => (
           <Box
             component="img"
@@ -48,16 +51,26 @@ const BrandAseguradoras = () => {
         ))}
       </Carousel>
       <Box display="flex" justifyContent="center" marginTop="15px">
+        <Typography variant={isMobile ? undefined : "h6"}>
+          ¡Si no encuentras tu aseguradora, comunicate con nosotros!
+        </Typography>
+      </Box>
+      <Box display="flex" justifyContent="center"  marginTop="15px">
         <Typography
           bgcolor="#194AC1"
           color="white"
           width={isMobile ? 350 : 700}
-          borderRadius={5}
+          borderRadius={2}
           textAlign="center"
           variant={isMobile ? undefined : "h4"}
         >
           Utiliza tu seguro de gastos médicos mayores con nosotros
         </Typography>
+      </Box>
+      <Box display="flex" justifyContent="center" marginTop="10px">
+        <Button variant="contained" sx={{ bgcolor: "#194AC1" }}>
+          más detalles
+        </Button>
       </Box>
     </Box>
   );
