@@ -8,6 +8,7 @@ import Servicios from "../../assets/icons/Servicios.png";
 import Membresia from "../../assets/icons/Membresia.png";
 import Cards from "./Card";
 import BrandUrgencias from "./BrandUrgencias";
+import BrandAseguradoras from "./BrandAseguradoras";
 
 const data = [
   {
@@ -79,9 +80,9 @@ export default function Home() {
           }}
         >
           {/* Elementos centrados */}
-          <Grid container spacing={2} justifyContent="center">
+          <Grid container spacing={2} justifyContent="center" ml="0">
             {data.map((item, index) => (
-              <Grid item xs={6} sm={3} md={3} lg={3} key={index} sx={{ display: "flex", justifyContent: "center"}}>
+              <Grid item xs={6} sm={3} md={3} lg={3} key={index} sx={{ display: "flex", justifyContent: "center", paddingLeft: "0 !important"}}>
                 <Cards
                   titulo={item.titulo}
                   subtitulo={item.subtitulo}
@@ -91,6 +92,7 @@ export default function Home() {
                 />
               </Grid>
             ))}
+          <BrandAseguradoras />
           </Grid>
         </Container>
         <BrandUrgencias />
