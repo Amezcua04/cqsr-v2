@@ -11,8 +11,8 @@ import BrandUrgencias from "./BrandUrgencias";
 import BrandAseguradoras from "./BrandAseguradoras";
 import BrandAmbulancia from "./BrandAmbulancia";
 import Slide from "./Slide";
-import imagen1 from "../../assets/imagen7.png";
-import imagen2 from "../../assets/imagen8.png";
+import imagen1 from "../../assets/imagen1.png";
+import imagen2 from "../../assets/imagen2.png";
 import imagen3 from "../../assets/imagen3.png";
 import imagen4 from "../../assets/imagen4.png";
 import imagen5 from "../../assets/imagen5.png";
@@ -56,18 +56,18 @@ const items = [
   {
     url: imagen2,
   },
-  // {
-  //   url: imagen3,
-  // },
-  // {
-  //   url: imagen4,
-  // },
-  // {
-  //   url: imagen5,
-  // },
-  // {
-  //   url: imagen6,
-  // },
+  {
+    url: imagen3,
+  },
+  {
+    url: imagen4,
+  },
+  {
+    url: imagen5,
+  },
+  {
+    url: imagen6,
+  },
 ];
 
 export default function Home() {
