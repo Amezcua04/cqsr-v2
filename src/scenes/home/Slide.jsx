@@ -5,8 +5,8 @@ const Slide = ({ items }) => {
   const isMobile = useMediaQuery("(max-width:600px)");
 
   const groupedItems = [];
-  for (let i = 0; i < items.length; i += 3) {
-    groupedItems.push(items.slice(i, i + 3));
+  for (let i = 0; i < items.length; i += 2) {
+    groupedItems.push(items.slice(i, i + 2));
   }
 
   return (
@@ -20,7 +20,7 @@ const Slide = ({ items }) => {
             <Card
               key={j}
               sx={{
-                height: isMobile ? "100px" : "200px",
+                height: isMobile ? "100px" : "300px",
               }}
             >
               <CardMedia

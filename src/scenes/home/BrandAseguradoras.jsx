@@ -51,7 +51,7 @@ const BrandAseguradoras = () => {
         ))}
       </Carousel>
 
-      <Box display="flex" justifyContent="center" marginTop="15px">
+      <Box display="flex" justifyContent="center" marginTop="15px" textAlign="center">
         <Typography variant={isMobile ? undefined : "h6"}>
           ¡Si no encuentras tu aseguradora, comunicate con nosotros!
         </Typography>
