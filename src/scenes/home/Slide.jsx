@@ -36,7 +36,7 @@ const Slide = ({ items }) => {
                 sx={{
                   height: isMobile ? "100px" : "300px",
                 }}
-                onClick={() => isMobile && handleOpen(i * 3 + j)}
+                onClick={() => handleOpen(i * 3 + j)}
               >
                 <CardMedia
                   component="img"
@@ -61,16 +61,16 @@ const Slide = ({ items }) => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          width: "100%"
+          width: "100%",
         }}
       >
         <Box sx={{ position: "fixed", width: "70%", }}>
           <IconButton
             onClick={handleClose}
             sx={{
-              position: "fixed",
-              top: 8,
-              right: 8,
+              position: "absolute",
+              top: isMobile ? -20 : 0,
+              right: isMobile ? -20 : 0,
               color: "white",
               zIndex: 1,
             }}
@@ -91,7 +91,7 @@ const Slide = ({ items }) => {
                 alt={`Slide ${index + 1}`}
                 sx={{
                   width: "100%",
-                  height: "100%",
+                  height: isMobile ? "300px" : "500px",
                   objectFit: "contain",
                 }}
               />
