@@ -7,7 +7,7 @@ import Aseguradora3 from "../../assets/A3.png";
 
 const BrandAseguradoras = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
-  var items = [
+  const items = [
     {
       url: Aseguradora1,
     },
@@ -33,7 +33,7 @@ const BrandAseguradoras = () => {
 
       {/* CAROUSEL */}
       <Carousel
-        navButtonsAlwaysVisible={isMobile ? false : true}
+        navButtonsAlwaysVisible={!isMobile}
         sx={{ marginTop: isMobile ? "10px" : "30px" }}
       >
         {items.map((item, i) => (
@@ -50,12 +50,13 @@ const BrandAseguradoras = () => {
           />
         ))}
       </Carousel>
+
       <Box display="flex" justifyContent="center" marginTop="15px">
         <Typography variant={isMobile ? undefined : "h6"}>
           ¡Si no encuentras tu aseguradora, comunicate con nosotros!
         </Typography>
       </Box>
-      <Box display="flex" justifyContent="center"  marginTop="15px">
+      <Box display="flex" justifyContent="center" marginTop="15px">
         <Typography
           bgcolor="#194AC1"
           color="white"

@@ -9,6 +9,14 @@ import Membresia from "../../assets/icons/Membresia.png";
 import Cards from "./Card";
 import BrandUrgencias from "./BrandUrgencias";
 import BrandAseguradoras from "./BrandAseguradoras";
+import BrandAmbulancia from "./BrandAmbulancia";
+import Slide from "./Slide";
+import imagen1 from "../../assets/imagen1.png";
+import imagen2 from "../../assets/imagen2.png";
+import imagen3 from "../../assets/imagen3.png";
+import imagen4 from "../../assets/imagen4.png";
+import imagen5 from "../../assets/imagen5.png";
+import imagen6 from "../../assets/imagen6.png";
 
 const data = [
   {
@@ -38,6 +46,27 @@ const data = [
       "Nuestra primera membresía de salud con grandes beneficios para toda la familia.",
     url: "#",
     image: Membresia,
+  },
+];
+
+const items = [
+  {
+    url: imagen1,
+  },
+  {
+    url: imagen2,
+  },
+  {
+    url: imagen3,
+  },
+  {
+    url: imagen4,
+  },
+  {
+    url: imagen5,
+  },
+  {
+    url: imagen6,
   },
 ];
 
@@ -79,21 +108,39 @@ export default function Home() {
             pb: { xs: 4 },
           }}
         >
-          {/* Elementos centrados */}
           <Grid container spacing={2} justifyContent="center" ml="0">
             {data.map((item, index) => (
-              <Grid item xs={6} sm={3} md={3} lg={3} key={index} sx={{ display: "flex", justifyContent: "center", paddingLeft: "0 !important"}}>
-                <Cards
-                  titulo={item.titulo}
-                  subtitulo={item.subtitulo}
-                  url={item.url}
-                  width={isMobile ? "160px" : "225px"}
-                  image={item.image}
-                />
-              </Grid>
+              <Cards
+                key={index}
+                titulo={item.titulo}
+                subtitulo={item.subtitulo}
+                url={item.url}
+                width={isMobile ? "160px" : "225px"}
+                image={item.image}
+              />
             ))}
-          <BrandAseguradoras />
           </Grid>
+        </Container>
+        <Container
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <Slide items={items} />
+        </Container>
+        <BrandAmbulancia />
+        <Container
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            pt: { xs: 4 },
+            pb: { xs: 4 },
+          }}
+        >
+          <BrandAseguradoras />
         </Container>
         <BrandUrgencias />
       </Container>
