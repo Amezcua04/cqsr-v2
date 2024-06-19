@@ -5,72 +5,12 @@ import BrandUrgencias from "./BrandUrgencias";
 import BrandAseguradoras from "./BrandAseguradoras";
 import BrandAmbulancia from "./BrandAmbulancia";
 import Slide from "./Slide";
-import Maternidad from "../../assets/icons/Maternidad.png";
-import Medicos from "../../assets/icons/Medicos.png";
-import Servicios from "../../assets/icons/Servicios.png";
-import Membresia from "../../assets/icons/Membresia.png";
 import imageUrlDesktop from "../../assets/Home/Banners inicio desktop.png";
 import imageUrlMobile from "../../assets/Home/Banners inicio mobile.png";
-import imagen1 from "../../assets/Home/imagen1.png";
-import imagen2 from "../../assets/Home/imagen2.png";
-import imagen3 from "../../assets/Home/imagen3.png";
-import imagen4 from "../../assets/Home/imagen4.png";
-import imagen5 from "../../assets/Home/imagen5.png";
-import imagen6 from "../../assets/Home/imagen6.png";
+import { dataHome, itemsHome } from "../../data/data";
+import React from "react";
 
-const data = [
-  {
-    titulo: "Paquete de Maternidad",
-    subtitulo:
-      "Reciba a su bebé en un espacio totalmente seguro, con la mejor atención las 24 horas.",
-    url: "#",
-    image: Maternidad,
-  },
-  {
-    titulo: "Médicos Especialistas",
-    subtitulo:
-      "Amplio staff de médicos especialistas dedicados al cuidado de su salud.",
-    url: "#",
-    image: Medicos,
-  },
-  {
-    titulo: "Servicios Médicos",
-    subtitulo:
-      "Más de 20 servicios médicos con tecnología de punta a su disposición.",
-    url: "#",
-    image: Servicios,
-  },
-  {
-    titulo: "Membresía Salud365",
-    subtitulo:
-      "Nuestra primera membresía de salud con grandes beneficios para toda la familia.",
-    url: "#",
-    image: Membresia,
-  },
-];
-
-const items = [
-  {
-    url: imagen1,
-  },
-  {
-    url: imagen2,
-  },
-  {
-    url: imagen3,
-  },
-  {
-    url: imagen4,
-  },
-  {
-    url: imagen5,
-  },
-  {
-    url: imagen6,
-  },
-];
-
-export default function Home() {
+const Home = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
 
   return (
@@ -82,7 +22,7 @@ export default function Home() {
         backgroundSize: "100% 20%",
         backgroundRepeat: "no-repeat",
         mb: { xs: "5px", sm: "10px" },
-        overflow: "auto"
+        overflow: "auto",
       }}
     >
       <Container
@@ -111,7 +51,7 @@ export default function Home() {
           }}
         >
           <Grid container spacing={2} justifyContent="center" ml="0">
-            {data.map((item, index) => (
+            {dataHome.map((item, index) => (
               <Cards
                 key={index}
                 titulo={item.titulo}
@@ -132,7 +72,7 @@ export default function Home() {
             alignItems: "center",
           }}
         >
-          <Slide items={items} />
+          <Slide items={itemsHome} />
         </Container>
         <BrandAmbulancia />
         <Container
@@ -150,4 +90,6 @@ export default function Home() {
       </Container>
     </Box>
   );
-}
+};
+
+export default Home;
