@@ -195,8 +195,9 @@ const Servicios = () => {
           variant="h1"
           align="center"
           sx={{
-            color: "#194AC1",
             width: "100%",
+            color: "white",
+            backgroundColor: "#06C7F9",
           }}
         >
           Nuestros servicios
@@ -207,7 +208,7 @@ const Servicios = () => {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            pt: { xs: 2 },
+            pt: { xs: 4 },
             pb: { xs: 2 },
           }}
         >

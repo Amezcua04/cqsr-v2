@@ -57,9 +57,9 @@ export default function Footer() {
               justifyContent: "center",
             }}
           >
-            <Box sx={{ width: { xs: "100%", sm: "60%" } }}>
+            <Box sx={{ width: { xs: "100%", sm: "50%" }, alignItems: "center"}}>
               <Box sx={{ ml: "-15px" }}>
-                <img src={Logo} style={logoStyle} alt="logo of sitemark" />
+                <img src={Logo} style={logoStyle} alt="logo de Centro Quirurgico San Rafael" />
               </Box>
               <Typography variant="h5" fontWeight={600} gutterBottom>
                 "Nuestra prioridad es tu bienestar."
@@ -82,6 +82,7 @@ export default function Footer() {
               flexDirection: "column",
               gap: 1,
               justifyContent: "center",
+              width: "100%",
             }}
           >
             <Typography variant="h5" fontWeight={600}>
