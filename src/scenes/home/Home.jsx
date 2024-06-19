@@ -1,22 +1,22 @@
 import { Box, Container, Grid, useMediaQuery } from "@mui/material";
 import Banner from "./Banner";
-import imageUrlDesktop from "../../assets/Banners inicio desktop.png";
-import imageUrlMobile from "../../assets/Banners inicio mobile.png";
-import Maternidad from "../../assets/icons/Maternidad.png";
-import Medicos from "../../assets/icons/Medicos.png";
-import Servicios from "../../assets/icons/Servicios.png";
-import Membresia from "../../assets/icons/Membresia.png";
 import Cards from "./Card";
 import BrandUrgencias from "./BrandUrgencias";
 import BrandAseguradoras from "./BrandAseguradoras";
 import BrandAmbulancia from "./BrandAmbulancia";
 import Slide from "./Slide";
-import imagen1 from "../../assets/imagen1.png";
-import imagen2 from "../../assets/imagen2.png";
-import imagen3 from "../../assets/imagen3.png";
-import imagen4 from "../../assets/imagen4.png";
-import imagen5 from "../../assets/imagen5.png";
-import imagen6 from "../../assets/imagen6.png";
+import Maternidad from "../../assets/icons/Maternidad.png";
+import Medicos from "../../assets/icons/Medicos.png";
+import Servicios from "../../assets/icons/Servicios.png";
+import Membresia from "../../assets/icons/Membresia.png";
+import imageUrlDesktop from "../../assets/Home/Banners inicio desktop.png";
+import imageUrlMobile from "../../assets/Home/Banners inicio mobile.png";
+import imagen1 from "../../assets/Home/imagen1.png";
+import imagen2 from "../../assets/Home/imagen2.png";
+import imagen3 from "../../assets/Home/imagen3.png";
+import imagen4 from "../../assets/Home/imagen4.png";
+import imagen5 from "../../assets/Home/imagen5.png";
+import imagen6 from "../../assets/Home/imagen6.png";
 
 const data = [
   {
@@ -121,6 +121,8 @@ export default function Home() {
             ))}
           </Grid>
         </Container>
+        {/* Detalles */}
+
         <Container
           sx={{
             display: "flex",

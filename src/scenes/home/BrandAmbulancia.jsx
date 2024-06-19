@@ -8,7 +8,7 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
-import Ambulancia from "../../assets/Recurso 17.png";
+import Ambulancia from "../../assets/Home/Recurso 17.png";
 
 const BrandAmbulancia = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
