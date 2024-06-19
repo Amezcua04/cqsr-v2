@@ -53,11 +53,12 @@ export default function Footer() {
               display: "flex",
               flexDirection: "column",
               gap: 4,
-              minWidth: { xs: "100%", sm: "60%" },
+              minWidth: { xs: "100%", sm: "50%" },
               justifyContent: "center",
+              alignItems: "center"
             }}
           >
-            <Box sx={{ width: { xs: "100%", sm: "50%" }, alignItems: "center"}}>
+            <Box sx={{ width: { xs: "100%", sm: "50%" }, }}>
               <Box sx={{ ml: "-15px" }}>
                 <img src={Logo} style={logoStyle} alt="logo de Centro Quirurgico San Rafael" />
               </Box>
