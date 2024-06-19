@@ -1,5 +1,4 @@
 import { Box, useMediaQuery } from "@mui/material";
-import "../../index.css";
 
 const Banner = ({ desktopImgSrc, mobileImgSrc, children }) => {
   const isMobile = useMediaQuery("(max-width:600px)");
