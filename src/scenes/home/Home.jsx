@@ -1,6 +1,6 @@
 import { Box, Container, Grid, useMediaQuery } from "@mui/material";
 import Banner from "./Banner";
-import Cards from "./Card";
+import Cards from "../../components/Card";
 import BrandUrgencias from "./BrandUrgencias";
 import BrandAseguradoras from "./BrandAseguradoras";
 import BrandAmbulancia from "./BrandAmbulancia";
@@ -77,10 +77,12 @@ export default function Home() {
     <Box
       sx={{
         width: "100%",
-        backgroundImage: "linear-gradient(180deg, #9BE7FA, #FFF)",
+        minHeight: "100%",
+        backgroundImage: "linear-gradient(180deg, #9BE7FA, #FBFBFB)",
         backgroundSize: "100% 20%",
         backgroundRepeat: "no-repeat",
         mb: { xs: "5px", sm: "10px" },
+        overflow: "auto"
       }}
     >
       <Container
