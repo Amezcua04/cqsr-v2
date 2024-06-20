@@ -40,7 +40,7 @@ const BrandUrgencias = () => {
             color="white"
             variant="h5"
             fontWeight={700}
-            width={180}
+            width={185}
             display="flex"
             alignItems="center"
             paddingRight= {!isMobile ? "15px" : undefined}
