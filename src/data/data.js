@@ -31,6 +31,9 @@ import Mapeo from "../assets/Servicios/Recurso 18.png";
 import Holter from "../assets/Servicios/Recurso 19.png";
 import Shock from "../assets/Servicios/Recurso 20.png";
 
+// Especialidades
+import example from "../assets/icons/Medicos.png";
+
 // Data Home
 export const dataHome = [
   {
@@ -223,4 +226,307 @@ export const dataServicios = [
     url: "#",
     image: Shock,
   },
+];
+
+// especialidades
+
+export const categorias = [
+  "Alergología",
+  "Cardiólogía",
+  "Cirugía general",
+  "Coloproctología",
+  "Endocrinología",
+  "Gastroenterología",
+  "Geriatría Internista",
+  "Ginecología y obstetricia",
+  "Histopatología",
+  "Medicina interna",
+  "Nefrología",
+  "Neurología",
+  "Oftalmología",
+  "Otorrinolaringología",
+  "Pediatría",
+  "Radiología",
+  "Traumatología y ortopedia",
+  "Urología",
+];
+
+  
+export const dataEspecialistas = [
+  {
+      "imagen": example,
+      "especialidad":"Alergología",
+      "nombre":"Dr. Jaime Díaz Valdivia",
+      "DGPE":10508493
+  },
+  {
+      "imagen": example,
+      "especialidad":"Cardiólogía",
+      "nombre":"Dr. Ricardo Sahagún Sánchez",
+      "DGPE":3393890
+  },
+  {
+      "imagen": example,
+      "especialidad":"Cardiólogía",
+      "nombre":"Dr. Kristian Javier Navarrete Becerra",
+      "DGPE":11650272
+  },
+  {
+      "imagen": example,
+      "especialidad":"Cardiólogía",
+      "nombre":"Dr. Enrique Ignacio Soltero Martínez",
+      "DGPE":"3166505 | 3270201"
+  },
+  {
+      "imagen": example,
+      "especialidad":"Cirugía general",
+      "nombre":"Dr. Miguel Calleros Mariscal",
+      "DGPE":4860278
+  },
+  {
+      "imagen": example,
+      "especialidad":"Cirugía general",
+      "nombre":"Dr. Edwin Omar Fragoza Aguillares",
+      "DGPE":9290716
+  },
+  {
+      "imagen": example,
+      "especialidad":"Cirugía general",
+      "nombre":"Dr. Francisco Javier Muniz Coronado",
+      "DGPE":7046221
+  },
+  {
+      "imagen": example,
+      "especialidad":"Coloproctología",
+      "nombre":"Dra. Alma Rosa Medina Fong",
+      "DGPE":"5848289 | 5212348 "
+  },
+  {
+      "imagen": example,
+      "especialidad":"Endocrinología",
+      "nombre":"Dra. Janet Lizeth Vargas Cortés",
+      "DGPE":11028016
+  },
+  {
+      "imagen": example,
+      "especialidad":"Gastroenterología",
+      "nombre":"Dr. Efraín Magaña Salas",
+      "DGPE":5052284
+  },
+  {
+      "imagen": example,
+      "especialidad":"Gastroenterología",
+      "nombre":"Dr. Gilberto de Jesús Parra Torres",
+      "DGPE":10031185
+  },
+  {
+      "imagen": example,
+      "especialidad":"Geriatría Internista",
+      "nombre":"Dr. Gilberto Medina Fong",
+      "DGPE":"6745642 | 7352969"
+  },
+  {
+      "imagen": example,
+      "especialidad":"Geriatría Internista",
+      "nombre":"Dr. Luis Antonio Flores Ruvalcaba",
+      "DGPE":9739415
+  },
+  {
+      "imagen": example,
+      "especialidad":"Ginecología y obstetricia",
+      "nombre":"Dr. Héctor Leonardo Torres Soltero",
+      "DGPE":3277271
+  },
+  {
+      "imagen": example,
+      "especialidad":"Ginecología y obstetricia",
+      "nombre":"Dr. Ramón González Bobadilla",
+      "DGPE":6323357
+  },
+  {
+      "imagen": example,
+      "especialidad":"Histopatología",
+      "nombre":"Dra. Hilda Rocio Andrade Madrid",
+      "DGPE":6525369
+  },
+  {
+      "imagen": example,
+      "especialidad":"Medicina interna",
+      "nombre":"Dr. José Antonio Carrillo Segura",
+      "DGPE":null
+  },
+  {
+      "imagen": example,
+      "especialidad":"Nefrología",
+      "nombre":"Dra. Elia Judith Corona Galván",
+      "DGPE":6673326
+  },
+  {
+      "imagen": example,
+      "especialidad":"Neurología",
+      "nombre":"Dr. Antonio Durán Ortega",
+      "DGPE":3270331
+  },
+  {
+      "imagen": example,
+      "especialidad":"Neurología",
+      "nombre":"Dr. Mario Gabriel Guevara Barraza",
+      "DGPE":4700291
+  },
+  {
+      "imagen": example,
+      "especialidad":"Neurología",
+      "nombre":"Dr. José Alberto Cruz Cruz",
+      "DGPE":11055456
+  },
+  {
+      "imagen": example,
+      "especialidad":"Neurología",
+      "nombre":"Dr. Ricardo Sahagun Topete",
+      "DGPE":6591998
+  },
+  {
+      "imagen": example,
+      "especialidad":"Oftalmología",
+      "nombre":"Dr. Roberto Diaz Cavazos",
+      "DGPE":4862438
+  },
+  {
+      "imagen": example,
+      "especialidad":"Oftalmología",
+      "nombre":"Dra. Eloísa Platt Soberanes",
+      "DGPE":4559102
+  },
+  {
+      "imagen": example,
+      "especialidad":"Otorrinolaringología",
+      "nombre":"Dra. María del Rocío Zambrano Carrillo",
+      "DGPE":30070
+  },
+  {
+      "imagen": example,
+      "especialidad":"Otorrinolaringología",
+      "nombre":"Dra. Rocío Yáñez Zambrano",
+      "DGPE":10727583
+  },
+  {
+      "imagen": example,
+      "especialidad":"Otorrinolaringología",
+      "nombre":"Dr. José Miguel Plascencia Ramírez",
+      "DGPE":8931464
+  },
+  {
+      "imagen": example,
+      "especialidad":"Pediatría",
+      "nombre":"Dra. Silvia Rodríguez Jiménez",
+      "DGPE":11460626
+  },
+  {
+      "imagen": example,
+      "especialidad":"Pediatría",
+      "nombre":"Dra. Pricila Muro",
+      "DGPE":null
+  },
+  {
+      "imagen": example,
+      "especialidad":"Pediatría",
+      "nombre":"Dra. Ana Lilia Rodríguez de la Peña",
+      "DGPE":"AECEN-25061"
+  },
+  {
+      "imagen": example,
+      "especialidad":"Pediatría",
+      "nombre":"Dra. Elizabeth López Chávez",
+      "DGPE":1815649
+  },
+  {
+      "imagen": example,
+      "especialidad":"Pediatría",
+      "nombre":"Dr. Miguel Licea Pérez Peña",
+      "DGPE":26600
+  },
+  {
+      "imagen": example,
+      "especialidad":"Pediatría",
+      "nombre":"Dra. Evelyn Selene Cortés Salvio",
+      "DGPE":11540617
+  },
+  {
+      "imagen": example,
+      "especialidad":"Pediatría",
+      "nombre":"Dr. Alejandro Solano",
+      "DGPE":null
+  },
+  {
+      "imagen": example,
+      "especialidad":"Pediatría",
+      "nombre":"Dr. Miguel Hernández García",
+      "DGPE":null
+  },
+  {
+      "imagen": example,
+      "especialidad":"Pediatría",
+      "nombre":"Dra. Roxana López Loza",
+      "DGPE":null
+  },
+  {
+      "imagen": example,
+      "especialidad":"Pediatría",
+      "nombre":"Dr. Joctan Esparza Alvarado",
+      "DGPE":null
+  },
+  {
+      "imagen": example,
+      "especialidad":"Pediatría",
+      "nombre":"Dr. Jesús Romero Rodríguez",
+      "DGPE":null
+  },
+  {
+      "imagen": example,
+      "especialidad":"Radiología",
+      "nombre":"Dr. José Alberto Gutiérrez Mata",
+      "DGPE":"AECEM-17241"
+  },
+  {
+      "imagen": example,
+      "especialidad":"Traumatología y ortopedia",
+      "nombre":"Dr. Alejandro Ávalos Flores",
+      "DGPE":6167498
+  },
+  {
+      "imagen": example,
+      "especialidad":"Traumatología y ortopedia",
+      "nombre":"Dr. Jorge García Valencia",
+      "DGPE":6745838
+  },
+  {
+      "imagen": example,
+      "especialidad":"Traumatología y ortopedia",
+      "nombre":"Dr. Luis Ernesto Hernández Rico",
+      "DGPE":5687069
+  },
+  {
+      "imagen": example,
+      "especialidad":"Traumatología y ortopedia",
+      "nombre":"Dr. José Carlos del Real Martínez",
+      "DGPE":11280294
+  },
+  {
+      "imagen": example,
+      "especialidad":"Traumatología y ortopedia",
+      "nombre":"Dr. José Benito del Real Martínez",
+      "DGPE":12187078
+  },
+  {
+      "imagen": example,
+      "especialidad":"Traumatología y ortopedia",
+      "nombre":"Dr. Sealtiel Alfonso Villeda Gómez",
+      "DGPE":11783462
+  },
+  {
+      "imagen": example,
+      "especialidad":"Urología",
+      "nombre":"Dr. Christopher Peña George",
+      "DGPE":6525364
+  }
 ];
