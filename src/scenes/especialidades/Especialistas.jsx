@@ -7,7 +7,6 @@ import {
   InputLabel,
   MenuItem,
   Select,
-  useMediaQuery,
 } from "@mui/material";
 import { useState } from "react";
 import { categorias, dataEspecialistas } from "../../data/data";
@@ -25,7 +24,6 @@ const MenuProps = {
 
 const Especialistas = () => {
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("");
-  const isMobile = useMediaQuery("(max-width:600px)");
   const handleCategoriaChange = (event) => {
     setCategoriaSeleccionada(event.target.value);
   };
