@@ -34,7 +34,7 @@ const Especialidades = () => {
             backgroundColor: "#06C7F9",
           }}
         >
-          Especialidades médicas
+          Directorio Médico
         </Typography>
 
         {/* Contenido */}
