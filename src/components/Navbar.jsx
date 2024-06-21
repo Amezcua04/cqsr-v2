@@ -116,7 +116,7 @@ function Navbar() {
                 }}
               >
                 <Typography variant="h5" color="neutral">
-                  Directorio Médicos
+                  Directorio Médico
                 </Typography>
               </MenuItem>
               <MenuItem
