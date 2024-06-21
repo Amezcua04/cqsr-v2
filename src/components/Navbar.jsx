@@ -108,15 +108,15 @@ function Navbar() {
                 </Typography>
               </MenuItem>
               <MenuItem
-                onClick={() => navigate("/especialidades")}
+                onClick={() => navigate("/medicos")}
                 sx={{
                   py: "6px",
                   px: "12px",
-                  ...getMenuItemStyle("/especialidades"),
+                  ...getMenuItemStyle("/medicos"),
                 }}
               >
                 <Typography variant="h5" color="neutral">
-                  Especialidades
+                  Directorio Médicos
                 </Typography>
               </MenuItem>
               <MenuItem
@@ -124,7 +124,7 @@ function Navbar() {
                 sx={{ py: "6px", px: "12px", ...getMenuItemStyle("/salud365") }}
               >
                 <Typography variant="h5" color="neutral">
-                  Salud 365
+                  Membresía Salud365
                 </Typography>
               </MenuItem>
               <MenuItem
