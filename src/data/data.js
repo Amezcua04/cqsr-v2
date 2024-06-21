@@ -19,6 +19,7 @@ import Intermedia from "../assets/Servicios/Recurso 5.png";
 import Traslados from "../assets/Servicios/Recurso 6.png";
 import Cirugia from "../assets/Servicios/Recurso 7.png";
 import Qx from "../assets/Servicios/Recurso 8.png";
+import Maternidad2 from "../assets/Servicios/Recurso 9.png";
 import Tamiz from "../assets/Servicios/Recurso 10.png";
 import Cuidados from "../assets/Servicios/Recurso 11.png";
 import ConsultaExterna from "../assets/Servicios/Recurso 12.png";
@@ -149,7 +150,7 @@ export const dataServicios = [
     subtitulo:
       "Reciba a su bebé en un espacio totalmente seguro, con la mejor atención.",
     url: "#",
-    image: Maternidad,
+    image: Maternidad2,
   },
   {
     titulo: "Tamiz Neonatal",
