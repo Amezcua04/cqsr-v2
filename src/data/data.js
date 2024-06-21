@@ -257,277 +257,369 @@ export const dataEspecialistas = [
   {
       "imagen": example,
       "especialidad":"Alergología",
+      "subespecialidad": null,
       "nombre":"Dr. Jaime Díaz Valdivia",
-      "DGPE":10508493
+      "DGPE":10508493,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Cardiólogía",
+      "subespecialidad": null,
       "nombre":"Dr. Ricardo Sahagún Sánchez",
-      "DGPE":3393890
+      "DGPE":3393890,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Cardiólogía",
+      "subespecialidad": null,
       "nombre":"Dr. Kristian Javier Navarrete Becerra",
-      "DGPE":11650272
+      "DGPE":11650272,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Cardiólogía",
+      "subespecialidad": "Medicina Interna",
       "nombre":"Dr. Enrique Ignacio Soltero Martínez",
-      "DGPE":"3166505 | 3270201"
+      "DGPE":"3166505 | 3270201",
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Cirugía general",
+      "subespecialidad": null,
       "nombre":"Dr. Miguel Calleros Mariscal",
-      "DGPE":4860278
+      "DGPE":4860278,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Cirugía general",
+      "subespecialidad": "Laparoscopia Avanzada",
       "nombre":"Dr. Edwin Omar Fragoza Aguillares",
-      "DGPE":9290716
+      "DGPE":9290716,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Cirugía general",
+      "subespecialidad": "Motilidad Digestiva",
       "nombre":"Dr. Francisco Javier Muniz Coronado",
-      "DGPE":7046221
+      "DGPE":7046221,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Coloproctología",
+      "subespecialidad": null,
       "nombre":"Dra. Alma Rosa Medina Fong",
-      "DGPE":"5848289 | 5212348 "
+      "DGPE":"5848289 | 5212348 ",
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Endocrinología",
+      "subespecialidad": null,
       "nombre":"Dra. Janet Lizeth Vargas Cortés",
-      "DGPE":11028016
+      "DGPE":11028016,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Gastroenterología",
+      "subespecialidad": null,
       "nombre":"Dr. Efraín Magaña Salas",
-      "DGPE":5052284
+      "DGPE":5052284,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Gastroenterología",
+      "subespecialidad": "Hepatología",
       "nombre":"Dr. Gilberto de Jesús Parra Torres",
-      "DGPE":10031185
+      "DGPE":10031185,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Geriatría Internista",
+      "subespecialidad": null,
       "nombre":"Dr. Gilberto Medina Fong",
-      "DGPE":"6745642 | 7352969"
+      "DGPE":"6745642 | 7352969",
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Geriatría Internista",
+      "subespecialidad": null,
       "nombre":"Dr. Luis Antonio Flores Ruvalcaba",
-      "DGPE":9739415
+      "DGPE":9739415,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Ginecología y obstetricia",
+      "subespecialidad": null,
       "nombre":"Dr. Héctor Leonardo Torres Soltero",
-      "DGPE":3277271
+      "DGPE":3277271,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Ginecología y obstetricia",
+      "subespecialidad": null,
       "nombre":"Dr. Ramón González Bobadilla",
-      "DGPE":6323357
+      "DGPE":6323357,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Histopatología",
+      "subespecialidad": null,
       "nombre":"Dra. Hilda Rocio Andrade Madrid",
-      "DGPE":6525369
+      "DGPE":6525369,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Medicina interna",
+      "subespecialidad": null,
       "nombre":"Dr. José Antonio Carrillo Segura",
-      "DGPE":null
+      "DGPE":null,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Nefrología",
+      "subespecialidad": null,
       "nombre":"Dra. Elia Judith Corona Galván",
-      "DGPE":6673326
+      "DGPE":6673326,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Neurología",
+      "subespecialidad": null,
       "nombre":"Dr. Antonio Durán Ortega",
-      "DGPE":3270331
+      "DGPE":3270331,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Neurología",
+      "subespecialidad": null,
       "nombre":"Dr. Mario Gabriel Guevara Barraza",
-      "DGPE":4700291
+      "DGPE":4700291,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Neurología",
+      "subespecialidad": null,
       "nombre":"Dr. José Alberto Cruz Cruz",
-      "DGPE":11055456
+      "DGPE":11055456,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Neurología",
+      "subespecialidad": "Neurología clínica",
       "nombre":"Dr. Ricardo Sahagun Topete",
-      "DGPE":6591998
+      "DGPE":6591998,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Oftalmología",
+      "subespecialidad": null,
       "nombre":"Dr. Roberto Diaz Cavazos",
-      "DGPE":4862438
+      "DGPE":4862438,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Oftalmología",
+      "subespecialidad": null,
       "nombre":"Dra. Eloísa Platt Soberanes",
-      "DGPE":4559102
+      "DGPE":4559102,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Otorrinolaringología",
+      "subespecialidad": null,
       "nombre":"Dra. María del Rocío Zambrano Carrillo",
-      "DGPE":30070
+      "DGPE":30070,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Otorrinolaringología",
+      "subespecialidad": null,
       "nombre":"Dra. Rocío Yáñez Zambrano",
-      "DGPE":10727583
+      "DGPE":10727583,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Otorrinolaringología",
+      "subespecialidad": null,
       "nombre":"Dr. José Miguel Plascencia Ramírez",
-      "DGPE":8931464
+      "DGPE":8931464,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Pediatría",
+      "subespecialidad": "Pediatría General",
       "nombre":"Dra. Silvia Rodríguez Jiménez",
-      "DGPE":11460626
+      "DGPE":11460626,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Pediatría",
+      "subespecialidad": null,
       "nombre":"Dra. Pricila Muro",
-      "DGPE":null
+      "DGPE":null,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Pediatría",
+      "subespecialidad": "Pediatra Cirujano",
       "nombre":"Dra. Ana Lilia Rodríguez de la Peña",
-      "DGPE":"AECEN-25061"
+      "DGPE":"AECEN-25061",
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Pediatría",
+      "subespecialidad": "Neonatología",
       "nombre":"Dra. Elizabeth López Chávez",
-      "DGPE":1815649
+      "DGPE":1815649,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Pediatría",
+      "subespecialidad": "Neonatología",
       "nombre":"Dr. Miguel Licea Pérez Peña",
-      "DGPE":26600
+      "DGPE":26600,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Pediatría",
+      "subespecialidad": "Neonatología",
       "nombre":"Dra. Evelyn Selene Cortés Salvio",
-      "DGPE":11540617
+      "DGPE":11540617,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Pediatría",
+      "subespecialidad": "Pediatra Endocrinologo",
       "nombre":"Dr. Alejandro Solano",
-      "DGPE":null
+      "DGPE":null,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Pediatría",
+      "subespecialidad": "Pediatría General",
       "nombre":"Dr. Miguel Hernández García",
-      "DGPE":null
+      "DGPE":null,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Pediatría",
+      "subespecialidad": "Pediatría General",
       "nombre":"Dra. Roxana López Loza",
-      "DGPE":null
+      "DGPE":null,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Pediatría",
+      "subespecialidad": "Pediatría General",
       "nombre":"Dr. Joctan Esparza Alvarado",
-      "DGPE":null
+      "DGPE":null,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Pediatría",
+      "subespecialidad": "Pediatra Intensivista",
       "nombre":"Dr. Jesús Romero Rodríguez",
-      "DGPE":null
+      "DGPE":null,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Radiología",
+      "subespecialidad": "Radiología e Imagen",
       "nombre":"Dr. José Alberto Gutiérrez Mata",
-      "DGPE":"AECEM-17241"
+      "DGPE":"AECEM-17241",
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Traumatología y ortopedia",
+      "subespecialidad": null,
       "nombre":"Dr. Alejandro Ávalos Flores",
-      "DGPE":6167498
+      "DGPE":6167498,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Traumatología y ortopedia",
+      "subespecialidad": null,
       "nombre":"Dr. Jorge García Valencia",
-      "DGPE":6745838
+      "DGPE":6745838,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Traumatología y ortopedia",
+      "subespecialidad": null,
       "nombre":"Dr. Luis Ernesto Hernández Rico",
-      "DGPE":5687069
+      "DGPE":5687069,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Traumatología y ortopedia",
+      "subespecialidad": "Cirugía Articular",
       "nombre":"Dr. José Carlos del Real Martínez",
-      "DGPE":11280294
+      "DGPE":11280294,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Traumatología y ortopedia",
+      "subespecialidad": "Cirugía Articular",
       "nombre":"Dr. José Benito del Real Martínez",
-      "DGPE":12187078
+      "DGPE":12187078,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Traumatología y ortopedia",
+      "subespecialidad": "Cirugía de Columna",
       "nombre":"Dr. Sealtiel Alfonso Villeda Gómez",
-      "DGPE":11783462
+      "DGPE":11783462,
+      "telefono": "(311)2119470 ext. 128",
   },
   {
       "imagen": example,
       "especialidad":"Urología",
+      "subespecialidad": "Urología General y Oncológica",
       "nombre":"Dr. Christopher Peña George",
-      "DGPE":6525364
+      "DGPE":6525364,
+      "telefono": "(311)2119470 ext. 128",
   }
 ];
