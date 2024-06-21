@@ -1,8 +1,17 @@
-import { Button, Card, CardActions, CardContent, CardMedia, Grid, Typography, useMediaQuery } from '@mui/material';
-import React from 'react'
+import {
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  CardMedia,
+  Grid,
+  Typography,
+  useMediaQuery,
+} from "@mui/material";
+import PhoneEnabledIcon from "@mui/icons-material/PhoneEnabled";
 
 const CardMedico = ({ especialista }) => {
-    const isMobile = useMediaQuery("(max-width:600px)")
+  const isMobile = useMediaQuery("(max-width:600px)");
   return (
     <Grid
       item
@@ -14,7 +23,7 @@ const CardMedico = ({ especialista }) => {
         display: "flex",
         justifyContent: "center",
         paddingLeft: "0 !important",
-        maxWidth: "100% !important"
+        maxWidth: "100% !important",
       }}
     >
       <Card
@@ -43,6 +52,7 @@ const CardMedico = ({ especialista }) => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
+            paddingBottom: "0",
           }}
         >
           <div>
@@ -55,24 +65,43 @@ const CardMedico = ({ especialista }) => {
             >
               {especialista.nombre}
             </Typography>
-            <Typography
-              variant="body2"
-              color="text.secondary"
-              textAlign={"justify"}
-            >
-              {especialista.especialidad}
-            </Typography>
           </div>
         </CardContent>
-        <CardActions sx={{ display: "flex", justifyContent: "center" }}>
-          <Button
-            fullWidth
-            variant="contained"
-            href="#"
-            sx={{ bgcolor: "#194AC1" }}
+        <CardActions sx={{ display: "grid", justifyContent: "center" }}>
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            textAlign={"center"}
           >
-            Más información
-          </Button>
+            DGPE: {especialista.DGPE}
+          </Typography>
+          <Typography
+            variant="h6"
+            color="white"
+            textAlign={"center"}
+            width="230px"
+            sx={{ backgroundColor: "#194AC1", borderRadius: "10px" }}
+          >
+            {especialista.especialidad}
+          </Typography>
+          <Typography
+            variant="h6"
+            color="white"
+            textAlign={"center"}
+            width="230px"
+            sx={{
+              backgroundColor: "#06C7F9",
+              borderRadius: "10px",
+              margin: "5px 0",
+            }}
+          >
+            {especialista.subespecialidad}
+          </Typography>
+          <a href="tel:3112119470" style={{ textDecoration: "none", display: "contents" }}>
+            <Button variant="text" startIcon={<PhoneEnabledIcon />}>
+              {especialista.telefono}
+            </Button>
+          </a>
         </CardActions>
       </Card>
     </Grid>
