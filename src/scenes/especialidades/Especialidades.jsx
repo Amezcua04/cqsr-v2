@@ -1,29 +1,44 @@
 import { Box, Container, Typography } from '@mui/material';
+import Especialistas from './Especialistas';
 
 const Especialidades = () => {
   return (
     <Box
-      id="Home"
       sx={{
-        width: '100%',
-        backgroundImage: 'linear-gradient(180deg, #9BE7FA, #FFF)',
-        backgroundSize: '100% 20%',
-        backgroundRepeat: 'no-repeat',
+        width: "100%",
+        minHeight: "100%",
+        // backgroundImage: "linear-gradient(180deg, #9BE7FA, #FBFBFB)",
+        backgroundSize: "100% 20%",
+        backgroundRepeat: "no-repeat",
+        mb: { xs: "5px", sm: "10px" },
+        overflow: "auto",
       }}
     >
       <Container
         sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          pt: { xs: 14, sm: 20 },
-          pb: { xs: 8, sm: 12 },
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          pt: { xs: 15 },
+          maxWidth: "100% !important",
+          pl: "0 !important",
+          pr: "0 !important",
         }}
       >
-        {/* Componentes */}
-        <Typography variant='h1'>
-          Especialidades
+        <Typography
+          variant="h1"
+          align="center"
+          sx={{
+            width: "100%",
+            color: "white",
+            backgroundColor: "#06C7F9",
+          }}
+        >
+          Especialidades médicas
         </Typography>
+
+        {/* Contenido */}
+        <Especialistas />
       </Container>
     </Box>
   );
