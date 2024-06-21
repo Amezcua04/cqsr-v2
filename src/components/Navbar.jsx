@@ -179,19 +179,19 @@ function Navbar() {
                     Servicios
                   </MenuItem>
                   <MenuItem
-                    onClick={() => navigate("/especialidades")}
+                    onClick={() => navigate("/medicos")}
                     sx={{
                       width: "125px",
-                      ...getMenuItemStyle("/especialidades"),
+                      ...getMenuItemStyle("/medicos"),
                     }}
                   >
-                    Especialidades
+                    Directorio Médico
                   </MenuItem>
                   <MenuItem
                     onClick={() => navigate("/salud365")}
                     sx={{ width: "125px", ...getMenuItemStyle("/salud365") }}
                   >
-                    Salud 365
+                    Membresía Salud365
                   </MenuItem>
                   <MenuItem
                     onClick={() => navigate("/contacto")}
