@@ -44,7 +44,7 @@ const CardMedico = ({ especialista }) => {
           }}
           title="imagen"
         >
-          <img src={especialista.imagen} alt="imagen" height="100px" />
+          <img src={especialista.imagen} loading="lazy" alt="imagen" height="100px" />
         </CardMedia>
         <CardContent
           sx={{

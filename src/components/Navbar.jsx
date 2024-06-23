@@ -77,6 +77,7 @@ function Navbar() {
                 src={Logo}
                 style={logoStyle}
                 alt="logo of cqsr"
+                loading="lazy"
                 onClick={() => navigate("/")}
               />
             </Box>

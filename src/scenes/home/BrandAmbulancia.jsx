@@ -76,6 +76,7 @@ const BrandAmbulancia = () => {
             component="img"
             src={Ambulancia}
             alt="Banner"
+            loading="lazy"
             height={isMobile ? "100%" : "310px"}
             sx={{
               width: "50%",

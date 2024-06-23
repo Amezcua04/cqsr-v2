@@ -42,6 +42,7 @@ const Slide = ({ items }) => {
                   component="img"
                   src={item.url}
                   alt={`Slide ${i * 3 + j + 1}`}
+                  loading="lazy"
                   sx={{
                     width: "100%",
                     height: "100%",

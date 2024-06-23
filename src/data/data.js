@@ -31,6 +31,10 @@ import Marcapasos from "../assets/Servicios/Recurso 17.png";
 import Mapeo from "../assets/Servicios/Recurso 18.png";
 import Holter from "../assets/Servicios/Recurso 19.png";
 import Shock from "../assets/Servicios/Recurso 20.png";
+// URLS
+import TamizImagen from "../assets/Servicios/Tamiz.jpg";
+import MaternindadImagen from "../assets/Servicios/Paquetes de maternidad.jpg";
+import EsterilizacionImagen from "../assets/Servicios/Servicio de esterilización.jpg";
 
 // Especialidades
 import example from "../assets/icons/Medicos.png";
@@ -97,12 +101,14 @@ export const dataServicios = [
     subtitulo: "Servicio de Tomografía y Rayos X las 24 horas.",
     url: "#",
     image: Imagenologia,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Urgencias las 24 horas",
     subtitulo: "Atención médica oportuna, profesional y ética.",
     url: "#",
     image: Urgencias,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Laboratorio las 24 horas",
@@ -110,6 +116,7 @@ export const dataServicios = [
       "Estudios de rutina y especiales con entrega de resultados hasta en 1 hora.",
     url: "#",
     image: Laboratorio,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Hospitalización",
@@ -117,12 +124,14 @@ export const dataServicios = [
       "Espacios seguros y cómodos, con una atención de calidad y calidez.",
     url: "#",
     image: Hospitalizacion,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Terapia Intermedia",
     subtitulo: "Cuidado especializado para los pacientes en condiciones críticas.",
     url: "#",
     image: Intermedia,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Traslados programados",
@@ -130,6 +139,7 @@ export const dataServicios = [
       "Modernas unidades equipadas para el traslados seguros dentro y fuera de la ciudad.",
     url: "#",
     image: Traslados,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Cirugía HoLEP",
@@ -137,6 +147,7 @@ export const dataServicios = [
       "Equipo de vanguardia para el tratamiento de padecimientos de la próstata.",
     url: "#",
     image: Cirugia,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Quirófanos",
@@ -144,26 +155,30 @@ export const dataServicios = [
       "Salas de quirófano con tecnología de punta para la realización de cirugías.",
     url: "#",
     image: Qx,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Paquetes de maternidad",
     subtitulo:
       "Reciba a su bebé en un espacio totalmente seguro, con la mejor atención.",
-    url: "#",
+    url: MaternindadImagen,
     image: Maternidad2,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Tamiz Neonatal",
     subtitulo:
       "Estudios con detección de hasta 140 enfermedades en los recién nacidos.",
-    url: "#",
+    url: TamizImagen,
     image: Tamiz,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Cuidados Intensivos Neonatales",
     subtitulo: "Cuidado especializado para los recién nacidos.",
     url: "#",
     image: Cuidados,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Consulta externa",
@@ -171,12 +186,14 @@ export const dataServicios = [
       "Salas de quirófano con tecnología de punta para la realización de cirugías.",
     url: "#",
     image: ConsultaExterna,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Esterilización de material médico",
     subtitulo: "Esterilización por plasma, vapor y gas.",
-    url: "#",
+    url: EsterilizacionImagen,
     image: Esterilizacion,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Farmacia",
@@ -184,6 +201,7 @@ export const dataServicios = [
       "Amplia variedad de medicamentos, con servicio las 24 horas.",
     url: "#",
     image: Farmacia,
+    etiqueta: "311 211 9470 / EXT. 124",
   },
   {
     titulo: "Sala de endoscopia",
@@ -191,6 +209,7 @@ export const dataServicios = [
       "Servicio de endoscopia y colonoscopia por médicos especialistas",
     url: "#",
     image: Endoscopia,
+    etiqueta: "Conoce más",
   },
   {
     titulo: "Oftálmica",
@@ -198,6 +217,7 @@ export const dataServicios = [
       "Detección y tratamiento de padecimientos oculares por médicos especialista.",
     url: "#",
     image: Oftamica,
+    etiqueta: "311 211 9470 / EXT. 195",
   },
   {
     titulo: "Marcapasos temporal",
@@ -205,6 +225,7 @@ export const dataServicios = [
       "Tratamiento urgente y temporal para pacientes con problemas cardíacos.",
     url: "#",
     image: Marcapasos,
+    etiqueta: "311 211 9470 / EXT. 0",
   },
   {
     titulo: "Mapeo de la presión arterial",
@@ -212,6 +233,7 @@ export const dataServicios = [
       "Detección y tratamiento de padecimientos oculares por médicos especialista.",
     url: "#",
     image: Mapeo,
+    etiqueta: "311 211 9470 / EXT. 0",
   },
   {
     titulo: "Holter",
@@ -219,6 +241,7 @@ export const dataServicios = [
       "Reciba a su bebé en un espacio totalmente seguro, con la mejor atención las 24 horas.",
     url: "#",
     image: Holter,
+    etiqueta: "311 211 9470 / EXT. 0",
   },
   {
     titulo: "Área de shock",
@@ -226,6 +249,7 @@ export const dataServicios = [
       "Equipo de vanguardia para el tratamiento de padecimientos de la próstata.",
     url: "#",
     image: Shock,
+    etiqueta: "311 211 9470 / EXT. 0",
   },
 ];
 

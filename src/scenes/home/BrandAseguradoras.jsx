@@ -42,6 +42,7 @@ const BrandAseguradoras = () => {
             src={item.url}
             key={i}
             alt="Banner"
+            loading="lazy"
             height={isMobile ? "100px" : "200px"}
             sx={{
               width: "100%",
@@ -51,7 +52,12 @@ const BrandAseguradoras = () => {
         ))}
       </Carousel>
 
-      <Box display="flex" justifyContent="center" marginTop="15px" textAlign="center">
+      <Box
+        display="flex"
+        justifyContent="center"
+        marginTop="15px"
+        textAlign="center"
+      >
         <Typography variant={isMobile ? undefined : "h6"}>
           ¡Si no encuentras tu aseguradora, comunicate con nosotros!
         </Typography>

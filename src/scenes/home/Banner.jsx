@@ -17,6 +17,7 @@ const Banner = ({ desktopImgSrc, mobileImgSrc, children }) => {
         component="img"
         src={imageSrc}
         alt="Banner"
+        loading="lazy"
         sx={{
           position: "absolute",
           top: 0,

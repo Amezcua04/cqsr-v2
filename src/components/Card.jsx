@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 
-export default function Cards({ titulo, subtitulo, url, width, image }) {
+export default function Cards({ titulo, subtitulo, url, width, image, etiqueta, onClick }) {
   return (
     <Grid
       item
@@ -41,7 +41,7 @@ export default function Cards({ titulo, subtitulo, url, width, image }) {
           }}
           title="imagen"
         >
-          <img src={image} alt="imagen" height="100px" />
+          <img src={image} alt="imagen" loading="lazy" height="100px" />
         </CardMedia>
         <CardContent
           sx={{
@@ -74,10 +74,10 @@ export default function Cards({ titulo, subtitulo, url, width, image }) {
           <Button
             fullWidth
             variant="contained"
-            href={url}
             sx={{ bgcolor: "#194AC1" }}
+            onClick={onClick}
           >
-            Más información
+            {etiqueta ? etiqueta : "Más información"}
           </Button>
         </CardActions>
       </Card>
