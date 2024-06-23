@@ -623,3 +623,16 @@ export const dataEspecialistas = [
       "telefono": "(311)2119470 ext. 128",
   }
 ];
+
+// CONTACTOS
+
+export const contactos = [
+  { area: "Recepción", extension: "0 / 127 / 181" },
+  { area: "Caja", extension: "162" },
+  { area: "Farmacia", extension: "124" },
+  { area: "Laboratorio", extension: "116" },
+  { area: "Rayos X", extension: "190" },
+  { area: "Tomografía", extension: "119" },
+  { area: "Seguros ambulatorios", extension: "174" },
+  { area: "Seguros y Convenios", extension: "126" },
+];

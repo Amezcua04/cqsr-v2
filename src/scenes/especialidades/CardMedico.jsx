@@ -80,7 +80,7 @@ const CardMedico = ({ especialista }) => {
             color="white"
             textAlign={"center"}
             width="230px"
-            sx={{ backgroundColor: "#194AC1", borderRadius: "10px" }}
+            sx={{ backgroundColor: "#194AC1", borderRadius: "10px", marginLeft: "0 !important" }}
           >
             {especialista.especialidad}
           </Typography>
@@ -92,7 +92,7 @@ const CardMedico = ({ especialista }) => {
             sx={{
               backgroundColor: "#06C7F9",
               borderRadius: "10px",
-              margin: "5px 0",
+              margin: "5px 0 !important",
             }}
           >
             {especialista.subespecialidad}

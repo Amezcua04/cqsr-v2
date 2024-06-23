@@ -1,11 +1,11 @@
-import { Box, Container, Typography } from '@mui/material';
+import { Box, Container, Typography } from "@mui/material";
+import CardContacto from "./CardContacto";
 
 const Contacto = () => {
   return (
     <Box
       sx={{
         width: "100%",
-        minHeight: "100%",
         // backgroundImage: "linear-gradient(180deg, #9BE7FA, #FBFBFB)",
         backgroundSize: "100% 20%",
         backgroundRepeat: "no-repeat",
@@ -36,6 +36,7 @@ const Contacto = () => {
           Contacto
         </Typography>
       </Container>
+      <CardContacto />
     </Box>
   );
 };
