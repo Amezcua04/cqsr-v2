@@ -201,7 +201,7 @@ export const dataServicios = [
       "Amplia variedad de medicamentos, con servicio las 24 horas.",
     url: null,
     image: Farmacia,
-    etiqueta: "311 211 9470 / EXT. 124",
+    etiqueta: "311 211 9470 EXT. 124",
   },
   {
     titulo: "Sala de endoscopia",
@@ -217,7 +217,7 @@ export const dataServicios = [
       "Detección y tratamiento de padecimientos oculares por médicos especialista.",
     url: null,
     image: Oftamica,
-    etiqueta: "311 211 9470 / EXT. 195",
+    etiqueta: "311 211 9470 EXT. 195",
   },
   {
     titulo: "Marcapasos temporal",
@@ -225,7 +225,7 @@ export const dataServicios = [
       "Tratamiento urgente y temporal para pacientes con problemas cardíacos.",
     url: null,
     image: Marcapasos,
-    etiqueta: "311 211 9470 / EXT. 0",
+    etiqueta: "311 211 9470 EXT. 0",
   },
   {
     titulo: "Mapeo de la presión arterial",
@@ -233,7 +233,7 @@ export const dataServicios = [
       "Detección y tratamiento de padecimientos oculares por médicos especialista.",
     url: null,
     image: Mapeo,
-    etiqueta: "311 211 9470 / EXT. 0",
+    etiqueta: "311 211 9470 EXT. 0",
   },
   {
     titulo: "Holter",
@@ -241,7 +241,7 @@ export const dataServicios = [
       "Reciba a su bebé en un espacio totalmente seguro, con la mejor atención las 24 horas.",
     url: null,
     image: Holter,
-    etiqueta: "311 211 9470 / EXT. 0",
+    etiqueta: "311 211 9470 EXT. 0",
   },
   {
     titulo: "Área de shock",
@@ -249,7 +249,7 @@ export const dataServicios = [
       "Equipo de vanguardia para el tratamiento de padecimientos de la próstata.",
     url: null,
     image: Shock,
-    etiqueta: "311 211 9470 / EXT. 0",
+    etiqueta: "311 211 9470 EXT. 0",
   },
 ];
 
