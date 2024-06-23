@@ -80,7 +80,7 @@ const Servicios = () => {
                 key={index}
                 titulo={item.titulo}
                 subtitulo={item.subtitulo}
-                url={item.url}
+                // url={item.url}
                 width={isMobile ? "160px" : "225px"}
                 image={item.image}
                 etiqueta={item.etiqueta}
@@ -131,7 +131,7 @@ const Servicios = () => {
       <ModalServicio
         open={openModal}
         handleClose={handleCloseModal}
-        content={modalContent}
+        contenido={modalContent}
       />
     </Box>
   );

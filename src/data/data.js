@@ -99,14 +99,14 @@ export const dataServicios = [
   {
     titulo: "Centro de Imagenología",
     subtitulo: "Servicio de Tomografía y Rayos X las 24 horas.",
-    url: "#",
+    url: null,
     image: Imagenologia,
     etiqueta: "Conoce más",
   },
   {
     titulo: "Urgencias las 24 horas",
     subtitulo: "Atención médica oportuna, profesional y ética.",
-    url: "#",
+    url: null,
     image: Urgencias,
     etiqueta: "Conoce más",
   },
@@ -114,7 +114,7 @@ export const dataServicios = [
     titulo: "Laboratorio las 24 horas",
     subtitulo:
       "Estudios de rutina y especiales con entrega de resultados hasta en 1 hora.",
-    url: "#",
+    url: null,
     image: Laboratorio,
     etiqueta: "Conoce más",
   },
@@ -122,14 +122,14 @@ export const dataServicios = [
     titulo: "Hospitalización",
     subtitulo:
       "Espacios seguros y cómodos, con una atención de calidad y calidez.",
-    url: "#",
+    url: null,
     image: Hospitalizacion,
     etiqueta: "Conoce más",
   },
   {
     titulo: "Terapia Intermedia",
     subtitulo: "Cuidado especializado para los pacientes en condiciones críticas.",
-    url: "#",
+    url: null,
     image: Intermedia,
     etiqueta: "Conoce más",
   },
@@ -137,7 +137,7 @@ export const dataServicios = [
     titulo: "Traslados programados",
     subtitulo:
       "Modernas unidades equipadas para el traslados seguros dentro y fuera de la ciudad.",
-    url: "#",
+    url: null,
     image: Traslados,
     etiqueta: "Conoce más",
   },
@@ -145,7 +145,7 @@ export const dataServicios = [
     titulo: "Cirugía HoLEP",
     subtitulo:
       "Equipo de vanguardia para el tratamiento de padecimientos de la próstata.",
-    url: "#",
+    url: null,
     image: Cirugia,
     etiqueta: "Conoce más",
   },
@@ -153,7 +153,7 @@ export const dataServicios = [
     titulo: "Quirófanos",
     subtitulo:
       "Salas de quirófano con tecnología de punta para la realización de cirugías.",
-    url: "#",
+    url: null,
     image: Qx,
     etiqueta: "Conoce más",
   },
@@ -176,7 +176,7 @@ export const dataServicios = [
   {
     titulo: "Cuidados Intensivos Neonatales",
     subtitulo: "Cuidado especializado para los recién nacidos.",
-    url: "#",
+    url: null,
     image: Cuidados,
     etiqueta: "Conoce más",
   },
@@ -184,7 +184,7 @@ export const dataServicios = [
     titulo: "Consulta externa",
     subtitulo:
       "Salas de quirófano con tecnología de punta para la realización de cirugías.",
-    url: "#",
+    url: null,
     image: ConsultaExterna,
     etiqueta: "Conoce más",
   },
@@ -199,7 +199,7 @@ export const dataServicios = [
     titulo: "Farmacia",
     subtitulo:
       "Amplia variedad de medicamentos, con servicio las 24 horas.",
-    url: "#",
+    url: null,
     image: Farmacia,
     etiqueta: "311 211 9470 / EXT. 124",
   },
@@ -207,7 +207,7 @@ export const dataServicios = [
     titulo: "Sala de endoscopia",
     subtitulo:
       "Servicio de endoscopia y colonoscopia por médicos especialistas",
-    url: "#",
+    url: null,
     image: Endoscopia,
     etiqueta: "Conoce más",
   },
@@ -215,7 +215,7 @@ export const dataServicios = [
     titulo: "Oftálmica",
     subtitulo:
       "Detección y tratamiento de padecimientos oculares por médicos especialista.",
-    url: "#",
+    url: null,
     image: Oftamica,
     etiqueta: "311 211 9470 / EXT. 195",
   },
@@ -223,7 +223,7 @@ export const dataServicios = [
     titulo: "Marcapasos temporal",
     subtitulo:
       "Tratamiento urgente y temporal para pacientes con problemas cardíacos.",
-    url: "#",
+    url: null,
     image: Marcapasos,
     etiqueta: "311 211 9470 / EXT. 0",
   },
@@ -231,7 +231,7 @@ export const dataServicios = [
     titulo: "Mapeo de la presión arterial",
     subtitulo:
       "Detección y tratamiento de padecimientos oculares por médicos especialista.",
-    url: "#",
+    url: null,
     image: Mapeo,
     etiqueta: "311 211 9470 / EXT. 0",
   },
@@ -239,7 +239,7 @@ export const dataServicios = [
     titulo: "Holter",
     subtitulo:
       "Reciba a su bebé en un espacio totalmente seguro, con la mejor atención las 24 horas.",
-    url: "#",
+    url: null,
     image: Holter,
     etiqueta: "311 211 9470 / EXT. 0",
   },
@@ -247,7 +247,7 @@ export const dataServicios = [
     titulo: "Área de shock",
     subtitulo:
       "Equipo de vanguardia para el tratamiento de padecimientos de la próstata.",
-    url: "#",
+    url: null,
     image: Shock,
     etiqueta: "311 211 9470 / EXT. 0",
   },

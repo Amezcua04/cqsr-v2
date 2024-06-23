@@ -41,7 +41,7 @@ export default function Cards({ titulo, subtitulo, url, width, image, etiqueta, 
           }}
           title="imagen"
         >
-          <img src={image} alt="imagen" loading="lazy" height="100px" />
+          <img src={image} alt="imagen" height="100px" />
         </CardMedia>
         <CardContent
           sx={{
