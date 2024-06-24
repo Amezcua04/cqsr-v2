@@ -32,9 +32,9 @@ import Mapeo from "../assets/Servicios/Recurso 18.png";
 import Holter from "../assets/Servicios/Recurso 19.png";
 import Shock from "../assets/Servicios/Recurso 20.png";
 // URLS
-import TamizImagen from "../assets/Servicios/Tamiz.jpg";
-import MaternindadImagen from "../assets/Servicios/Paquetes de maternidad.jpg";
-import EsterilizacionImagen from "../assets/Servicios/Servicio de esterilización.jpg";
+import TamizImagen from "../assets/Servicios/Tamiz.webp";
+import MaternindadImagen from "../assets/Servicios/Paquetes-de-maternidad.webp";
+import EsterilizacionImagen from "../assets/Servicios/Servicio-de-esterilización.webp";
 
 // Especialidades
 import example from "../assets/icons/Medicos.png";
