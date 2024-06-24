@@ -14,6 +14,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import CallIcon from "@mui/icons-material/Call";
 import Logo from "../assets/logo.png";
+import Whatsapp from "./Whatsapp";
 
 const logoStyle = {
   width: "50px",
@@ -38,6 +39,7 @@ function Navbar() {
 
   return (
     <div>
+      <Whatsapp />
       <AppBar
         position="fixed"
         sx={{
