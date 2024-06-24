@@ -1,4 +1,5 @@
 import { Box, Container, Grid, useMediaQuery } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 import Banner from "./Banner";
 import Cards from "../../components/Card";
 import BrandUrgencias from "./BrandUrgencias";
@@ -8,10 +9,10 @@ import Slide from "./Slide";
 import imageUrlDesktop from "../../assets/Home/Banners inicio desktop.png";
 import imageUrlMobile from "../../assets/Home/Banners inicio mobile.png";
 import { dataHome, itemsHome } from "../../data/data";
-import React from "react";
 
 const Home = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
+  const navigate = useNavigate();
 
   return (
     <Box
@@ -59,6 +60,7 @@ const Home = () => {
                 url={item.url}
                 width={isMobile ? "160px" : "225px"}
                 image={item.image}
+                onClick={() => navigate(item.url)}
               />
             ))}
           </Grid>

@@ -42,31 +42,31 @@ import example from "../assets/icons/Medicos.webp";
 // Data Home
 export const dataHome = [
   {
-    titulo: "Paquete de Maternidad",
+    titulo: "Maternidad",
     subtitulo:
       "Reciba a su bebé en un espacio totalmente seguro, con la mejor atención las 24 horas.",
     url: "#",
     image: Maternidad,
   },
   {
-    titulo: "Médicos Especialistas",
-    subtitulo:
-      "Amplio staff de médicos especialistas dedicados al cuidado de su salud.",
-    url: "#",
-    image: Medicos,
-  },
-  {
     titulo: "Servicios Médicos",
     subtitulo:
       "Más de 20 servicios médicos con tecnología de punta a su disposición.",
-    url: "#",
+    url: "/servicios",
     image: Servicios,
+  },
+  {
+    titulo: "Directorio médico",
+    subtitulo:
+      "Amplio staff de médicos especialistas dedicados al cuidado de su salud.",
+    url: "/medicos",
+    image: Medicos,
   },
   {
     titulo: "Membresía Salud365",
     subtitulo:
       "Nuestra primera membresía de salud con grandes beneficios para toda la familia.",
-    url: "#",
+    url: "/salud365",
     image: Membresia,
   },
 ];
