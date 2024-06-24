@@ -170,41 +170,44 @@ function Navbar() {
                     }}
                   ></Box>
                   <MenuItem
-                    onClick={() => navigate("/")}
+                    onClick={() => (navigate("/"), setOpen(false))}
                     sx={{ width: "125px", ...getMenuItemStyle("/") }}
                   >
                     Inicio
                   </MenuItem>
                   <MenuItem
-                    onClick={() => navigate("/servicios")}
+                    onClick={() => (navigate("/servicios"), setOpen(false))}
                     sx={{ width: "125px", ...getMenuItemStyle("/servicios") }}
                   >
                     Servicios
                   </MenuItem>
                   <MenuItem
-                    onClick={() => navigate("/medicos")}
-                    sx={{
-                      width: "125px",
-                      ...getMenuItemStyle("/medicos"),
+                    onClick={() => (navigate("/medicos"), setOpen(false))}
+                    sx={{ width: "125px", ...getMenuItemStyle("/medicos"),
                     }}
                   >
                     Directorio Médico
                   </MenuItem>
                   <MenuItem
-                    onClick={() => navigate("/salud365")}
+                    onClick={() => (navigate("/salud365"), setOpen(false))}
                     sx={{ width: "125px", ...getMenuItemStyle("/salud365") }}
                   >
                     Membresía Salud365
                   </MenuItem>
                   <MenuItem
-                    onClick={() => navigate("/contacto")}
+                    onClick={() => (navigate("/contacto"), setOpen(false))}
                     sx={{ width: "125px", ...getMenuItemStyle("/contacto") }}
                   >
                     Contacto
                   </MenuItem>
                   <Divider />
                   <a href="tel:3112119470" style={{ textDecoration: "none" }}>
-                    <Button startIcon={<CallIcon />} variant="contained" fullWidth color="error">
+                    <Button
+                      startIcon={<CallIcon />}
+                      variant="contained"
+                      fullWidth
+                      color="error"
+                    >
                       URGENCIAS
                     </Button>
                   </a>
