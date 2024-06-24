@@ -1,43 +1,43 @@
 // Home
-import Maternidad from "../assets/icons/Maternidad.png";
-import Medicos from "../assets/icons/Medicos.png";
-import Servicios from "../assets/icons/Servicios.png";
-import Membresia from "../assets/icons/Membresia.png";
-import imagen1 from "../assets/Home/imagen1.png";
-import imagen2 from "../assets/Home/imagen2.png";
-import imagen3 from "../assets/Home/imagen3.png";
-import imagen4 from "../assets/Home/imagen4.png";
-import imagen5 from "../assets/Home/imagen5.png";
-import imagen6 from "../assets/Home/imagen6.png";
+import Maternidad from "../assets/icons/Maternidad.webp";
+import Medicos from "../assets/icons/Medicos.webp";
+import Servicios from "../assets/icons/Servicios.webp";
+import Membresia from "../assets/icons/Membresia.webp";
+import imagen1 from "../assets/Home/imagen1.webp";
+import imagen2 from "../assets/Home/imagen2.webp";
+import imagen3 from "../assets/Home/imagen3.webp";
+import imagen4 from "../assets/Home/imagen4.webp";
+import imagen5 from "../assets/Home/imagen5.webp";
+import imagen6 from "../assets/Home/imagen6.webp";
 
 // Servicios
-import Imagenologia from "../assets/Servicios/Recurso 1.png"
-import Urgencias from "../assets/Servicios/Recurso 2.png";
-import Laboratorio from "../assets/Servicios/Recurso 3.png";
-import Hospitalizacion from "../assets/Servicios/Recurso 4.png";
-import Intermedia from "../assets/Servicios/Recurso 5.png";
-import Traslados from "../assets/Servicios/Recurso 6.png";
-import Cirugia from "../assets/Servicios/Recurso 7.png";
-import Qx from "../assets/Servicios/Recurso 8.png";
-import Maternidad2 from "../assets/Servicios/Recurso 9.png";
-import Tamiz from "../assets/Servicios/Recurso 10.png";
-import Cuidados from "../assets/Servicios/Recurso 11.png";
-import ConsultaExterna from "../assets/Servicios/Recurso 12.png";
-import Esterilizacion from "../assets/Servicios/Recurso 13.png";
-import Farmacia from "../assets/Servicios/Recurso 14.png";
-import Endoscopia from "../assets/Servicios/Recurso 15.png";
-import Oftamica from "../assets/Servicios/Recurso 16.png";
-import Marcapasos from "../assets/Servicios/Recurso 17.png";
-import Mapeo from "../assets/Servicios/Recurso 18.png";
-import Holter from "../assets/Servicios/Recurso 19.png";
-import Shock from "../assets/Servicios/Recurso 20.png";
+import Imagenologia from "../assets/Servicios/Recurso 1.webp"
+import Urgencias from "../assets/Servicios/Recurso 2.webp";
+import Laboratorio from "../assets/Servicios/Recurso 3.webp";
+import Hospitalizacion from "../assets/Servicios/Recurso 4.webp";
+import Intermedia from "../assets/Servicios/Recurso 5.webp";
+import Traslados from "../assets/Servicios/Recurso 6.webp";
+import Cirugia from "../assets/Servicios/Recurso 7.webp";
+import Qx from "../assets/Servicios/Recurso 8.webp";
+import Maternidad2 from "../assets/Servicios/Recurso 9.webp";
+import Tamiz from "../assets/Servicios/Recurso 10.webp";
+import Cuidados from "../assets/Servicios/Recurso 11.webp";
+import ConsultaExterna from "../assets/Servicios/Recurso 12.webp";
+import Esterilizacion from "../assets/Servicios/Recurso 13.webp";
+import Farmacia from "../assets/Servicios/Recurso 14.webp";
+import Endoscopia from "../assets/Servicios/Recurso 15.webp";
+import Oftamica from "../assets/Servicios/Recurso 16.webp";
+import Marcapasos from "../assets/Servicios/Recurso 17.webp";
+import Mapeo from "../assets/Servicios/Recurso 18.webp";
+import Holter from "../assets/Servicios/Recurso 19.webp";
+import Shock from "../assets/Servicios/Recurso 20.webp";
 // URLS
 import TamizImagen from "../assets/Servicios/Tamiz.webp";
 import MaternindadImagen from "../assets/Servicios/Paquetes-de-maternidad.webp";
 import EsterilizacionImagen from "../assets/Servicios/Servicio-de-esterilización.webp";
 
 // Especialidades
-import example from "../assets/icons/Medicos.png";
+import example from "../assets/icons/Medicos.webp";
 
 // Data Home
 export const dataHome = [

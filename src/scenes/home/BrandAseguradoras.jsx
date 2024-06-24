@@ -1,9 +1,9 @@
 import { Box, Button, Typography } from "@mui/material";
 import { useMediaQuery } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
-import Aseguradora1 from "../../assets/Home/A1.png";
-import Aseguradora2 from "../../assets/Home/A2.png";
-import Aseguradora3 from "../../assets/Home/A3.png";
+import Aseguradora1 from "../../assets/Home/A1.webp";
+import Aseguradora2 from "../../assets/Home/A2.webp";
+import Aseguradora3 from "../../assets/Home/A3.webp";
 
 const BrandAseguradoras = () => {
   const isMobile = useMediaQuery("(max-width:600px)");

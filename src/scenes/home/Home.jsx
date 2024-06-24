@@ -5,8 +5,8 @@ import BrandUrgencias from "./BrandUrgencias";
 import BrandAseguradoras from "./BrandAseguradoras";
 import BrandAmbulancia from "./BrandAmbulancia";
 import Slide from "./Slide";
-import imageUrlDesktop from "../../assets/Home/Banners inicio desktop.png";
-import imageUrlMobile from "../../assets/Home/Banners inicio mobile.png";
+import imageUrlDesktop from "../../assets/Home/Banners inicio desktop.webp";
+import imageUrlMobile from "../../assets/Home/Banners inicio mobile.webp";
 import { dataHome, itemsHome } from "../../data/data";
 import React from "react";
 
