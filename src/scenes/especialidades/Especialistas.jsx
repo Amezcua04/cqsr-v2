@@ -43,6 +43,8 @@ const Especialistas = () => {
         justifyContent: "center",
         pt: { xs: 4 },
         pb: { xs: 4 },
+        pl: 0,
+        pr: 0,
       }}
     >
       <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
