@@ -2,6 +2,7 @@ import { Box, Container, Grid, useMediaQuery } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import Banner from "./Banner";
 import Cards from "../../components/Card";
+import CardDetalles from "./CardDetalles";
 import BrandUrgencias from "./BrandUrgencias";
 import BrandAseguradoras from "./BrandAseguradoras";
 import BrandAmbulancia from "./BrandAmbulancia";
@@ -9,6 +10,7 @@ import Slide from "./Slide";
 import imageUrlDesktop from "../../assets/Home/Banners inicio desktop.png";
 import imageUrlMobile from "../../assets/Home/Banners inicio mobile.png";
 import { dataHome, itemsHome } from "../../data/data";
+import BrandLeyenda from "./BrandLeyenda";
 
 const Home = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
@@ -64,9 +66,11 @@ const Home = () => {
               />
             ))}
           </Grid>
+          {/* Leyenda */}
+          <BrandLeyenda />
         </Container>
         {/* Detalles */}
-
+        <CardDetalles />
         <Container
           sx={{
             display: "flex",

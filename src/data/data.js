@@ -9,6 +9,12 @@ import imagen3 from "../assets/Home/imagen3.webp";
 import imagen4 from "../assets/Home/imagen4.webp";
 import imagen5 from "../assets/Home/imagen5.webp";
 import imagen6 from "../assets/Home/imagen6.webp";
+import recurso9 from "../assets/Home/Recurso 9.png";
+import recurso10 from "../assets/Home/Recurso 10.png";
+import recurso11 from "../assets/Home/Recurso 11.png";
+import recurso12 from "../assets/Home/Recurso 12.png";
+import recurso13 from "../assets/Home/Recurso 13.png";
+import recurso14 from "../assets/Home/Recurso 14.png";
 
 // Servicios
 import Imagenologia from "../assets/Servicios/Recurso 1.webp"
@@ -70,6 +76,39 @@ export const dataHome = [
     image: Membresia,
   },
 ];
+
+export const dataDetalles = [
+  {
+    icono: recurso9,
+    cantidad: "+32",
+    texto: "años de experiencia",
+  },
+  {
+    icono: recurso10,
+    cantidad: "+25",
+    texto: "especialidades médicas",
+  },
+  {
+    icono: recurso11,
+    cantidad: "+20",
+    texto: "servicios médicos",
+  },
+  {
+    icono: recurso12,
+    cantidad: "+100",
+    texto: "médicos especialistas",
+  },
+  {
+    icono: recurso13,
+    cantidad: "+25",
+    texto: "habitaciones confortables",
+  },
+  {
+    icono: recurso14,
+    cantidad: "+200",
+    texto: "colaboradores capacitados",
+  },
+]
 
 // Items Home
 export const itemsHome = [
