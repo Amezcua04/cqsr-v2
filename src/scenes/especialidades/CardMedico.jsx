@@ -90,7 +90,7 @@ const CardMedico = ({ especialista }) => {
                 backgroundColor: "#194AC1",
                 borderRadius: "10px",
                 width: {xs: "150px", lg: "200px" },
-                fontSize: {xs: "11px"},
+                fontSize: {xs: "11px", lg: "14px"},
                 marginLeft: "0 !important",
               }}
             >
@@ -106,7 +106,7 @@ const CardMedico = ({ especialista }) => {
                 borderRadius: "10px",
                 margin: "5px 0 !important",
                 width: {xs: "150px", lg: "200px" },
-                fontSize: {xs: "11px"},
+                fontSize: {xs: "11px", lg: "14px"},
               }}
             >
               {especialista.subespecialidad}
