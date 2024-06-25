@@ -5,9 +5,10 @@ import {
   Typography,
   useMediaQuery,
   Button,
+  CircularProgress,
 } from "@mui/material";
-import { useState } from "react";
 import Cards from "../../components/Card";
+import { useState, useCallback } from "react";
 import { dataServicios } from "../../data/data";
 import ModalServicio from "../../components/Modal";
 
@@ -16,15 +17,31 @@ const Servicios = () => {
   const [visibleCount, setVisibleCount] = useState(dataServicios.length / 2);
   const [openModal, setOpenModal] = useState(false);
   const [modalContent, setModalContent] = useState({});
+  const [loadingModal, setLoadingModal] = useState(false);
 
   const handleShowMore = () => {
     setVisibleCount(dataServicios.length); // Mostrar todos los cards
   };
 
-  const handleOpenModal = (item) => {
-    setModalContent(item);
-    setOpenModal(true);
-  };
+  const handleOpenModal = useCallback((item) => {
+    setLoadingModal(true);
+
+    const modal = new Image();
+    modal.src = item.url;
+
+    modal.onload = () => {
+      setTimeout(() => {
+        setModalContent(item);
+        setOpenModal(true);
+        setLoadingModal(false);
+      }, 1000);
+    };
+
+    modal.onerror = () => {
+      setLoadingModal(false);
+      console.error("Error al cargar imagen");
+    };
+  }, []);
 
   const handleCloseModal = () => {
     setOpenModal(false);
@@ -35,7 +52,6 @@ const Servicios = () => {
       sx={{
         width: "100%",
         minHeight: "100%",
-        // backgroundImage: "linear-gradient(180deg, #9BE7FA, #FBFBFB)",
         backgroundSize: "100% 20%",
         backgroundRepeat: "no-repeat",
         mb: { xs: "5px", sm: "10px" },
@@ -80,7 +96,6 @@ const Servicios = () => {
                 key={index}
                 titulo={item.titulo}
                 subtitulo={item.subtitulo}
-                // url={item.url}
                 width={isMobile ? "160px" : "225px"}
                 image={item.image}
                 etiqueta={item.etiqueta}
@@ -127,6 +142,25 @@ const Servicios = () => {
           )}
         </Container>
       </Container>
+
+      {loadingModal && (
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            zIndex: 1300,
+          }}
+        >
+          <CircularProgress sx={{ color: "#06C7F9"}}  />
+        </Box>
+      )}
 
       <ModalServicio
         open={openModal}
