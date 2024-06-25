@@ -51,7 +51,7 @@ const Especialistas = () => {
         <Button
           variant="contained"
           color="secondary"
-          sx={{ marginRight: "1rem" }}
+          sx={{ marginRight: "5px" }}
           onClick={() => setCategoriaSeleccionada("")}
         >
           Mostrar todos
