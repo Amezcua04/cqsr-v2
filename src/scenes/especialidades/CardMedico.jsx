@@ -113,7 +113,7 @@ const CardMedico = ({ especialista }) => {
             </Typography>
           </Box>
           <a
-            href="tel:3112119470"
+            href={"tel:"+especialista.numero}
             style={{ textDecoration: "none", display: "contents" }}
           >
             <Button variant="text" startIcon={<PhoneEnabledIcon />} sx={{ padding: {xs: "6px 8px", lg: "10px 8px"} }}>
