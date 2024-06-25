@@ -35,7 +35,7 @@ const CardDetalle = () => {
                   padding="5px"
                   alignSelf="center"
                   sx={{
-                    width: {xs: "50%", md:"15%" ,xl:"15%"},
+                    width: {xs: "50%", md:"15%" ,lg:"15%"},
                   }}
                 >
                   <img src={item.icono} alt="icono" loading="lazy" width="90%"/>

@@ -1,4 +1,5 @@
 import {
+  Box,
   Button,
   Card,
   CardActions,
@@ -31,7 +32,7 @@ const CardMedico = ({ especialista }) => {
           height: 300,
           display: "flex",
           flexDirection: "column",
-          width: "100%",
+          width: { xs: "100%", lg: "90%" },
         }}
       >
         <CardMedia
@@ -44,7 +45,12 @@ const CardMedico = ({ especialista }) => {
           }}
           title="imagen"
         >
-          <img src={especialista.imagen} loading="lazy" alt="imagen" height="100px" />
+          <img
+            src={especialista.imagen}
+            loading="lazy"
+            alt="imagen"
+            height="100px"
+          />
         </CardMedia>
         <CardContent
           sx={{
@@ -55,7 +61,7 @@ const CardMedico = ({ especialista }) => {
             paddingBottom: "0",
           }}
         >
-          <div>
+          
             <Typography
               gutterBottom
               variant={isMobile ? "h6" : "h5"}
@@ -65,7 +71,7 @@ const CardMedico = ({ especialista }) => {
             >
               {especialista.nombre}
             </Typography>
-          </div>
+          
         </CardContent>
         <CardActions sx={{ display: "grid", justifyContent: "center" }}>
           <Typography
@@ -75,30 +81,42 @@ const CardMedico = ({ especialista }) => {
           >
             DGPE: {especialista.DGPE}
           </Typography>
-          <Typography
-            variant="h6"
-            color="white"
-            textAlign={"center"}
-            width="230px"
-            sx={{ backgroundColor: "#194AC1", borderRadius: "10px", marginLeft: "0 !important" }}
+          <Box display="flex" flexDirection="column" alignItems="center" ml="0 !important">
+            <Typography
+              variant="h6"
+              color="white"
+              textAlign={"center"}
+              sx={{
+                backgroundColor: "#194AC1",
+                borderRadius: "10px",
+                width: {xs: "150px", lg: "200px" },
+                fontSize: {xs: "11px"},
+                marginLeft: "0 !important",
+              }}
+            >
+              {especialista.especialidad}
+            </Typography>
+            <Typography
+              variant="h6"
+              color="white"
+              textAlign={"center"}
+              width="230px"
+              sx={{
+                backgroundColor: "#06C7F9",
+                borderRadius: "10px",
+                margin: "5px 0 !important",
+                width: {xs: "150px", lg: "200px" },
+                fontSize: {xs: "11px"},
+              }}
+            >
+              {especialista.subespecialidad}
+            </Typography>
+          </Box>
+          <a
+            href="tel:3112119470"
+            style={{ textDecoration: "none", display: "contents" }}
           >
-            {especialista.especialidad}
-          </Typography>
-          <Typography
-            variant="h6"
-            color="white"
-            textAlign={"center"}
-            width="230px"
-            sx={{
-              backgroundColor: "#06C7F9",
-              borderRadius: "10px",
-              margin: "5px 0 !important",
-            }}
-          >
-            {especialista.subespecialidad}
-          </Typography>
-          <a href="tel:3112119470" style={{ textDecoration: "none", display: "contents" }}>
-            <Button variant="text" startIcon={<PhoneEnabledIcon />}>
+            <Button variant="text" startIcon={<PhoneEnabledIcon />} sx={{ padding: {xs: "6px 8px", lg: "10px 8px"} }}>
               {especialista.telefono}
             </Button>
           </a>

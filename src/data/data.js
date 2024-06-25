@@ -43,7 +43,7 @@ import MaternindadImagen from "../assets/Servicios/Paquetes-de-maternidad.webp";
 import EsterilizacionImagen from "../assets/Servicios/Servicio-de-esterilización.webp";
 
 // Especialidades
-import example from "../assets/icons/Medicos.webp";
+import example from "../assets/Medicos/perfil.png";
 
 // Data Home
 export const dataHome = [
@@ -584,7 +584,7 @@ export const dataEspecialistas = [
   {
       "imagen": example,
       "especialidad":"Pediatría",
-      "subespecialidad": "Pediatra Endocrinologo",
+      "subespecialidad": "Endocrinología",
       "nombre":"Dr. Alejandro Solano",
       "DGPE":null,
       "telefono": "(311)2119470 ext. 128",
@@ -680,7 +680,7 @@ export const dataEspecialistas = [
   {
       "imagen": example,
       "especialidad":"Urología",
-      "subespecialidad": "Urología General y Oncológica",
+      "subespecialidad": "Oncológica",
       "nombre":"Dr. Christopher Peña George",
       "DGPE":6525364,
       "telefono": "(311)2119470 ext. 128",
