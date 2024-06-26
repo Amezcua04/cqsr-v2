@@ -617,8 +617,8 @@ export const dataEspecialistas = [
   },
   {
       "imagen": example,
-      "especialidad":"Pediatría",
-      "subespecialidad": "Endocrinología pediatrica",
+      "especialidad":"Endocrinología pediatrica",
+      "subespecialidad": null,
       "nombre":"Dr. Alejandro Solano",
       "DGPE":null,
       "telefono": "(311)2119470 ext. 128",
