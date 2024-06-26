@@ -354,7 +354,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Cirugía general",
+    especialidad: "Cirugía General",
     subespecialidad: null,
     nombre: "Dr. Miguel Calleros Mariscal",
     DGPE: 4860278,
@@ -363,7 +363,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Cirugía general",
+    especialidad: "Cirugía General",
     subespecialidad: "Laparoscopia Avanzada",
     nombre: "Dr. Edwin Omar Fragoza Aguillares",
     DGPE: 9290716,
@@ -372,7 +372,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Cirugía general",
+    especialidad: "Cirugía General",
     subespecialidad: "Motilidad Digestiva",
     nombre: "Dr. Francisco Javier Muniz Coronado",
     DGPE: 7046221,
@@ -400,7 +400,7 @@ export const dataEspecialistas = [
 
   {
     imagen: example,
-    especialidad: "Endocrinología pediatrica",
+    especialidad: "Endocrinología Pediatrica",
     subespecialidad: null,
     nombre: "Dr. Alejandro Solano",
     DGPE: null,
@@ -445,7 +445,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Ginecología y obstetricia",
+    especialidad: "Ginecología y Obstetricia",
     subespecialidad: null,
     nombre: "Dr. Héctor Leonardo Torres Soltero",
     DGPE: 3277271,
@@ -454,7 +454,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Ginecología y obstetricia",
+    especialidad: "Ginecología y Obstetricia",
     subespecialidad: null,
     nombre: "Dr. Ramón González Bobadilla",
     DGPE: 6323357,
@@ -472,7 +472,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Medicina interna",
+    especialidad: "Medicina Interna",
     subespecialidad: null,
     nombre: "Dr. José Antonio Carrillo Segura",
     DGPE: null,
@@ -670,7 +670,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Traumatología y ortopedia",
+    especialidad: "Traumatología y Ortopedia",
     subespecialidad: null,
     nombre: "Dr. Alejandro Ávalos Flores",
     DGPE: 6167498,
@@ -679,7 +679,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Traumatología y ortopedia",
+    especialidad: "Traumatología y Ortopedia",
     subespecialidad: null,
     nombre: "Dr. Jorge García Valencia",
     DGPE: 6745838,
@@ -688,7 +688,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Traumatología y ortopedia",
+    especialidad: "Traumatología y Ortopedia",
     subespecialidad: null,
     nombre: "Dr. Luis Ernesto Hernández Rico",
     DGPE: 5687069,
@@ -697,7 +697,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Traumatología y ortopedia",
+    especialidad: "Traumatología y Ortopedia",
     subespecialidad: "Alta Esp. en Cirugía Articular",
     nombre: "Dr. José Carlos del Real Martínez",
     DGPE: 11280294,
@@ -706,7 +706,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Traumatología y ortopedia",
+    especialidad: "Traumatología y Ortopedia",
     subespecialidad: "Alta Esp. en Cirugía Articular",
     nombre: "Dr. José Benito del Real Martínez",
     DGPE: 12187078,
@@ -715,7 +715,7 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Traumatología y ortopedia",
+    especialidad: "Traumatología y Ortopedia",
     subespecialidad: "Cirugía de Columna",
     nombre: "Dr. Sealtiel Alfonso Villeda Gómez",
     DGPE: 11783462,
@@ -724,8 +724,8 @@ export const dataEspecialistas = [
   },
   {
     imagen: example,
-    especialidad: "Urología",
-    subespecialidad: "Oncológica",
+    especialidad: "Urología Oncológica",
+    subespecialidad: null,
     nombre: "Dr. Christopher Peña George",
     DGPE: 6525364,
     telefono: "(311)2119470 ext. 128",
