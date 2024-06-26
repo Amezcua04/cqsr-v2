@@ -30,7 +30,7 @@ const Especialistas = () => {
 
   const especialistasFiltrados = categoriaSeleccionada
     ? dataEspecialistas.filter(
-        (especialista) => especialista.especialidad === categoriaSeleccionada
+        (especialista) => (especialista.especialidad === categoriaSeleccionada || especialista.subespecialidad === categoriaSeleccionada)
       )
     : dataEspecialistas;
 
