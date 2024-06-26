@@ -300,6 +300,7 @@ export const categorias = [
   "Cirugía general",
   "Coloproctología",
   "Endocrinología",
+  "Endocrinología pediatrica",
   "Gastroenterología",
   "Geriatría Internista",
   "Ginecología y obstetricia",
@@ -481,7 +482,7 @@ export const dataEspecialistas = [
   },
   {
       "imagen": example,
-      "especialidad":"Neurología",
+      "especialidad":"Neurocirugía",
       "subespecialidad": null,
       "nombre":"Dr. Antonio Durán Ortega",
       "DGPE":3270331,
@@ -490,7 +491,7 @@ export const dataEspecialistas = [
   },
   {
       "imagen": example,
-      "especialidad":"Neurología",
+      "especialidad":"Neurocirugía",
       "subespecialidad": null,
       "nombre":"Dr. Mario Gabriel Guevara Barraza",
       "DGPE":4700291,
@@ -499,7 +500,7 @@ export const dataEspecialistas = [
   },
   {
       "imagen": example,
-      "especialidad":"Neurología",
+      "especialidad":"Neurocirugía",
       "subespecialidad": null,
       "nombre":"Dr. José Alberto Cruz Cruz",
       "DGPE":11055456,
@@ -509,7 +510,7 @@ export const dataEspecialistas = [
   {
       "imagen": example,
       "especialidad":"Neurología",
-      "subespecialidad": "Neurología clínica",
+      "subespecialidad": null,
       "nombre":"Dr. Ricardo Sahagun Topete",
       "DGPE":6591998,
       "telefono": "(311)2119470 ext. 128",
@@ -563,7 +564,7 @@ export const dataEspecialistas = [
   {
       "imagen": example,
       "especialidad":"Pediatría",
-      "subespecialidad": "Pediatría General",
+      "subespecialidad": null,
       "nombre":"Dra. Silvia Rodríguez Jiménez",
       "DGPE":11460626,
       "telefono": "(311)2119470 ext. 128",
@@ -617,7 +618,7 @@ export const dataEspecialistas = [
   {
       "imagen": example,
       "especialidad":"Pediatría",
-      "subespecialidad": "Endocrinología",
+      "subespecialidad": "Endocrinología pediatrica",
       "nombre":"Dr. Alejandro Solano",
       "DGPE":null,
       "telefono": "(311)2119470 ext. 128",
@@ -626,7 +627,7 @@ export const dataEspecialistas = [
   {
       "imagen": example,
       "especialidad":"Pediatría",
-      "subespecialidad": "Pediatría General",
+      "subespecialidad": null,
       "nombre":"Dr. Miguel Hernández García",
       "DGPE":null,
       "telefono": "(311)2119470 ext. 128",
@@ -635,7 +636,7 @@ export const dataEspecialistas = [
   {
       "imagen": example,
       "especialidad":"Pediatría",
-      "subespecialidad": "Pediatría General",
+      "subespecialidad": null,
       "nombre":"Dra. Roxana López Loza",
       "DGPE":null,
       "telefono": "(311)2119470 ext. 128",
@@ -644,7 +645,7 @@ export const dataEspecialistas = [
   {
       "imagen": example,
       "especialidad":"Pediatría",
-      "subespecialidad": "Pediatría General",
+      "subespecialidad": null,
       "nombre":"Dr. Joctan Esparza Alvarado",
       "DGPE":null,
       "telefono": "(311)2119470 ext. 128",
@@ -661,8 +662,8 @@ export const dataEspecialistas = [
   },
   {
       "imagen": example,
-      "especialidad":"Radiología",
-      "subespecialidad": "Radiología e Imagen",
+      "especialidad":"Radiología e Imagen",
+      "subespecialidad": null,
       "nombre":"Dr. José Alberto Gutiérrez Mata",
       "DGPE":"AECEM-17241",
       "telefono": "(311)2119470 ext. 128",
@@ -698,7 +699,7 @@ export const dataEspecialistas = [
   {
       "imagen": example,
       "especialidad":"Traumatología y ortopedia",
-      "subespecialidad": "Cirugía Articular",
+      "subespecialidad": "Alta Esp. en Cirugía Articular",
       "nombre":"Dr. José Carlos del Real Martínez",
       "DGPE":11280294,
       "telefono": "(311)2119470 ext. 128",
@@ -707,7 +708,7 @@ export const dataEspecialistas = [
   {
       "imagen": example,
       "especialidad":"Traumatología y ortopedia",
-      "subespecialidad": "Cirugía Articular",
+      "subespecialidad": "Alta Esp. en Cirugía Articular",
       "nombre":"Dr. José Benito del Real Martínez",
       "DGPE":12187078,
       "telefono": "(311)2119470 ext. 128",
