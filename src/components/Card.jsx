@@ -14,7 +14,7 @@ export default function Cards({ titulo, subtitulo, url, width, image, etiqueta, 
     <Grid
       item
       xs={6}
-      sm={3}
+      sm={4}
       md={3}
       lg={3}
       sx={{

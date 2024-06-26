@@ -33,7 +33,7 @@ const Home = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          pt: { xs: "75px", lg: "60px" },
+          pt: { xs: "75px", lg: "60px", xl: "90px" },
           maxWidth: "100% !important",
           pl: "0 !important",
           pr: "0 !important",
