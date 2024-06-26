@@ -182,20 +182,20 @@ function Navbar() {
                     Servicios
                   </MenuItem>
                   <MenuItem
-                    onClick={() => (navigate("/medicos") && setOpen(false))}
+                    onClick={() => (navigate("/medicos") || setOpen(false))}
                     sx={{ width: "125px", ...getMenuItemStyle("/medicos"),
                     }}
                   >
                     Directorio Médico
                   </MenuItem>
                   <MenuItem
-                    onClick={() => (navigate("/salud365") && setOpen(false))}
+                    onClick={() => (navigate("/salud365") || setOpen(false))}
                     sx={{ width: "125px", ...getMenuItemStyle("/salud365") }}
                   >
                     Membresía Salud365
                   </MenuItem>
                   <MenuItem
-                    onClick={() => (navigate("/contacto") && setOpen(false))}
+                    onClick={() => (navigate("/contacto") || setOpen(false))}
                     sx={{ width: "125px", ...getMenuItemStyle("/contacto") }}
                   >
                     Contacto
