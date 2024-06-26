@@ -170,13 +170,13 @@ function Navbar() {
                     }}
                   ></Box>
                   <MenuItem
-                    onClick={() => (navigate("/") && setOpen(false))}
+                    onClick={() => (navigate("/") || setOpen(false))}
                     sx={{ width: "125px", ...getMenuItemStyle("/") }}
                   >
                     Inicio
                   </MenuItem>
                   <MenuItem
-                    onClick={() => (navigate("/servicios") && setOpen(false))}
+                    onClick={() => (navigate("/servicios") || setOpen(false))}
                     sx={{ width: "125px", ...getMenuItemStyle("/servicios") }}
                   >
                     Servicios
