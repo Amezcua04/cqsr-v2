@@ -44,6 +44,52 @@ import EsterilizacionImagen from "../assets/Servicios/Servicio-de-esterilizació
 
 // Especialidades
 import example from "../assets/Medicos/perfil.png";
+import JaimeDiazValdivia from "../assets/Especialistas/Dr. Jaime Díaz Valdivia.jpg";
+import RicardoSahagunSanchez from "../assets/Especialistas/Dr. Ricardo Sahagún Sánchez.jpg";
+import KristianJavierNavarreteBecerra from "../assets/Especialistas/Dr. Kristian Javier Navarrete Becerra.jpg";
+import EnriqueIgnacioSolteroMartinez from "../assets/Especialistas/Dr. Enrique Ignacio Soltero Martínez.jpg";
+// import MiguelCallerosMariscal from "../assets/Especialistas/Migu";
+// import EdwinOmarFragozaAguillares from "../assets/Especialistas/Fra";
+import FranciscoJavierMunizCoronado from "../assets/Especialistas/Dr. Francisco Javier Muniz Coronado.jpg";
+// import AlmaRosaMedinaFong from "../assets/Especialistas/Alma";
+import JanetLizethVargasCortes from "../assets/Especialistas/Dra. Janet Lizeth Vargas Cortés.jpg";
+import AlejandroSolano from "../assets/Especialistas/Dr. Alejandro Solano.jpg";
+// import EfraínMagañaSalas from "../assets/Especialistas/Efra";
+import GilbertodeJesusParraTorres from "../assets/Especialistas/Dr. Gilberto de Jesús Parra Torres.jpg";
+import GilbertoMedinaFong from "../assets/Especialistas/Dr. Gilberto Medina Fong.jpg";
+import LuisAntonioFloreRuvalcaba from "../assets/Especialistas/Dr. Luis Antonio Flores Ruvalcaba.jpg";
+import HéctorLeonardoTorresSoltero from "../assets/Especialistas/Dr. Héctor Leonardo Torres Soltero.jpg";
+// import RamonGonzalezBobadilla from "../assets/Especialistas/R";
+// import HildaRocioAndradeMadrid from "../assets/Especialistas/";
+// import JoseAntonioCarrilloSegura from "../assets/Especialistas/Segura";
+// import EliaJudithCoronaGalvan from "../assets/Especialistas/";
+import AntonioDuranOrtega from "../assets/Especialistas/Dr. Antonio Durán Ortega.jpg";
+import MarioGabrielGuevaraBarraza from "../assets/Especialistas/Dr. Mario Gabriel Guevara Barraza.jpg";
+// import JoseAlbertoCruzCruz from "../assets/Especialistas/";
+import RicardoSahagunTopete from "../assets/Especialistas/Dr. Ricardo Sahagun Topete.jpg";
+// import RobertoDiazCavazos from "../assets/Especialistas/Rober";
+// import EloisaPlattSoberanes from "../assets/Especialistas/";
+import MariadelRocioZambranoCarrillo from "../assets/Especialistas/Dra. María del Rocío Zambrano Carrillo.jpg";
+// import RocioYañezZambrano from "../assets/Especialistas/Yañ";
+import JoseMiguelPlascenciaRamirez from "../assets/Especialistas/Dr. José Miguel Plascencia Ramírez.jpg";
+import SilviaRodriguezJimenez from "../assets/Especialistas/Dra. Silvia Rodríguez Jiménez.jpg";
+// import PricilaMuro from "../assets/Especialistas/Muro";
+// import AnaLiliaRodriguezdelaPeña from "../assets/Especialistas/Ana";
+// import ElizabethLopezChavez from "../assets/Especialistas/Eliz";
+import MiguelLiceaPerezPeña from "../assets/Especialistas/Dr. Miguel Licea Pérez Peña.jpg";
+import EvelynSeleneCortesSalvio from "../assets/Especialistas/Dra. Evelyn Selene Cortés Salvio.jpg";
+// import MiguelHernandezGarcia from "../assets/Especialistas/Miguel";
+// import RoxanaLopezLoza from "../assets/Especialistas/";
+// import JoctanEsparzaAlvarado from "../assets/Especialistas/";
+import JesusRomeroRodriguez from "../assets/Especialistas/Dr. Jesús Alejandro Romero Rodríguez.jpg";
+import JoseAlbertoGutierrezMata from "../assets/Especialistas/Dr. José Alberto Gutiérrez Mata.jpg";
+// import AlejandroAvalosFlores from "../assets/Especialistas/Alejandro";
+// import JorgeGarciaValencia from "../assets/Especialistas/";
+import LuisErnestoHernandezRico from "../assets/Especialistas/Dr. Luis Ernesto Hernández Rico.jpg";
+import JoseCarlosdelRealMartinez from "../assets/Especialistas/Dr. José Carlos del Real Martínez.jpg";
+import JoseBenitodelRealMartinez from "../assets/Especialistas/Dr. José Benito del Real Martínez.jpg";
+// import SealtielAlfonsoVilledaGomez from "../assets/Especialistas/Seal";
+import ChristopherPeñaGeorge from "../assets/Especialistas/Dr. Christopher Peña George.jpg";
 
 // Data Home
 export const dataHome = [
@@ -325,7 +371,7 @@ export const categorias = [
 
 export const dataEspecialistas = [
   {
-    imagen: example,
+    imagen: JaimeDiazValdivia,
     especialidad: "Alergología",
     subespecialidad: null,
     nombre: "Dr. Jaime Díaz Valdivia",
@@ -334,7 +380,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: RicardoSahagunSanchez,
     especialidad: "Cardiólogía",
     subespecialidad: null,
     nombre: "Dr. Ricardo Sahagún Sánchez",
@@ -343,7 +389,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: KristianJavierNavarreteBecerra,
     especialidad: "Cardiólogía",
     subespecialidad: null,
     nombre: "Dr. Kristian Javier Navarrete Becerra",
@@ -352,7 +398,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: EnriqueIgnacioSolteroMartinez,
     especialidad: "Cardiólogía",
     subespecialidad: "Medicina Interna",
     nombre: "Dr. Enrique Ignacio Soltero Martínez",
@@ -379,7 +425,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: FranciscoJavierMunizCoronado,
     especialidad: "Cirugía General",
     subespecialidad: "Motilidad Digestiva",
     nombre: "Dr. Francisco Javier Muniz Coronado",
@@ -397,7 +443,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: JanetLizethVargasCortes,
     especialidad: "Endocrinología",
     subespecialidad: null,
     nombre: "Dra. Janet Lizeth Vargas Cortés",
@@ -407,7 +453,7 @@ export const dataEspecialistas = [
   },
 
   {
-    imagen: example,
+    imagen: AlejandroSolano,
     especialidad: "Endocrinología Pediatrica",
     subespecialidad: null,
     nombre: "Dr. Alejandro Solano",
@@ -425,7 +471,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: GilbertodeJesusParraTorres,
     especialidad: "Gastroenterología",
     subespecialidad: "Hepatología",
     nombre: "Dr. Gilberto de Jesús Parra Torres",
@@ -434,7 +480,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: GilbertoMedinaFong,
     especialidad: "Geriatría Internista",
     subespecialidad: null,
     nombre: "Dr. Gilberto Medina Fong",
@@ -443,7 +489,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: LuisAntonioFloreRuvalcaba,
     especialidad: "Geriatría Internista",
     subespecialidad: null,
     nombre: "Dr. Luis Antonio Flores Ruvalcaba",
@@ -452,7 +498,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: HéctorLeonardoTorresSoltero,
     especialidad: "Ginecología y Obstetricia",
     subespecialidad: null,
     nombre: "Dr. Héctor Leonardo Torres Soltero",
@@ -497,7 +543,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: AntonioDuranOrtega,
     especialidad: "Neurocirugía",
     subespecialidad: null,
     nombre: "Dr. Antonio Durán Ortega",
@@ -506,7 +552,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: MarioGabrielGuevaraBarraza,
     especialidad: "Neurocirugía",
     subespecialidad: null,
     nombre: "Dr. Mario Gabriel Guevara Barraza",
@@ -524,7 +570,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: RicardoSahagunTopete,
     especialidad: "Neurología",
     subespecialidad: null,
     nombre: "Dr. Ricardo Sahagun Topete",
@@ -551,7 +597,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: MariadelRocioZambranoCarrillo,
     especialidad: "Otorrinolaringología",
     subespecialidad: null,
     nombre: "Dra. María del Rocío Zambrano Carrillo",
@@ -569,7 +615,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: JoseMiguelPlascenciaRamirez,
     especialidad: "Otorrinolaringología",
     subespecialidad: null,
     nombre: "Dr. José Miguel Plascencia Ramírez",
@@ -578,7 +624,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: SilviaRodriguezJimenez,
     especialidad: "Pediatría",
     subespecialidad: null,
     nombre: "Dra. Silvia Rodríguez Jiménez",
@@ -614,7 +660,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: MiguelLiceaPerezPeña,
     especialidad: "Pediatría",
     subespecialidad: "Neonatología",
     nombre: "Dr. Miguel Licea Pérez Peña",
@@ -623,7 +669,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: EvelynSeleneCortesSalvio,
     especialidad: "Pediatría",
     subespecialidad: "Neonatología",
     nombre: "Dra. Evelyn Selene Cortés Salvio",
@@ -659,7 +705,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: JesusRomeroRodriguez,
     especialidad: "Pediatría",
     subespecialidad: "Pediatra Intensivista",
     nombre: "Dr. Jesús Romero Rodríguez",
@@ -668,7 +714,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: JoseAlbertoGutierrezMata,
     especialidad: "Radiología e Imagen",
     subespecialidad: null,
     nombre: "Dr. José Alberto Gutiérrez Mata",
@@ -695,7 +741,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: LuisErnestoHernandezRico,
     especialidad: "Traumatología y Ortopedia",
     subespecialidad: null,
     nombre: "Dr. Luis Ernesto Hernández Rico",
@@ -704,7 +750,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: JoseCarlosdelRealMartinez,
     especialidad: "Traumatología y Ortopedia",
     subespecialidad: "Alta Esp. en Cirugía Articular",
     nombre: "Dr. José Carlos del Real Martínez",
@@ -713,7 +759,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: JoseBenitodelRealMartinez,
     especialidad: "Traumatología y Ortopedia",
     subespecialidad: "Alta Esp. en Cirugía Articular",
     nombre: "Dr. José Benito del Real Martínez",
@@ -731,7 +777,7 @@ export const dataEspecialistas = [
     numero: "3112119470",
   },
   {
-    imagen: example,
+    imagen: ChristopherPeñaGeorge,
     especialidad: "Urología Oncológica",
     subespecialidad: null,
     nombre: "Dr. Christopher Peña George",
