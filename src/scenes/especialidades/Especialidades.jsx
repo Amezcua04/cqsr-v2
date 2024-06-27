@@ -30,8 +30,7 @@ const Especialidades = () => {
           align="center"
           sx={{
             width: "100%",
-            color: "white",
-            backgroundColor: "#06C7F9",
+            color: "#194AC1",
           }}
         >
           Directorio Médico

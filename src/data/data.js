@@ -43,7 +43,7 @@ import MaternindadImagen from "../assets/Servicios/Paquetes-de-maternidad.webp";
 import EsterilizacionImagen from "../assets/Servicios/Servicio-de-esterilización.webp";
 
 // Especialidades
-import example from "../assets/Medicos/perfil.png";
+import example from "../assets/Especialistas/perfil.jpg";
 import JaimeDiazValdivia from "../assets/Especialistas/Dr. Jaime Díaz Valdivia.jpg";
 import RicardoSahagunSanchez from "../assets/Especialistas/Dr. Ricardo Sahagún Sánchez.jpg";
 import KristianJavierNavarreteBecerra from "../assets/Especialistas/Dr. Kristian Javier Navarrete Becerra.jpg";
